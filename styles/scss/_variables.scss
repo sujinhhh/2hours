@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Single+Day&display=swap");
 
+// Slick Slider
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 // Font Variables
 $body-font: "Roboto", sans-serif;
 $Kor-font: "Single Day", cursive;
@@ -12,32 +16,6 @@ $font-sm: 0.875; // 14px
 $font-med: 1.125; // 18px
 $font-lg: 1.25rem;
 $font-xlg: 3.25rem;
-
-$black: #000000 !default;
-$white: #ffffff !default;
-
-// Colors
-$medBlue: #4979ff;
-$darkBlue: hsl(233, 26%, 24%);
-$limeGreen: hsl(136, 65%, 51%);
-$brightCyan: hsl(192, 70%, 51%);
-
-$grayishBlue: hsl(233, 8%, 62%);
-$lightGrayishBlue: hsl(220, 16%, 96%);
-$veryLightGray: hsl(0, 0%, 98%);
-$white: hsl(0, 0%, 100%);
-
-$colors: (
-  home: #d16e8d,
-  about: #ffac83,
-  contact: #3f78c9,
-  courses: #49c4a3,
-);
-
-$greenGradient: linear-gradient(to right, $limeGreen, $brightCyan);
-
-// transition
-$opacityTransition: all 500ms ease-in-out;
 
 // 공간
 

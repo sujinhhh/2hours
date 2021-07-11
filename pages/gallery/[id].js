@@ -42,10 +42,10 @@ const Details = ({ gallery }) => {
 
         <p>Origin : {gallery.place_of_origin}</p>
         <p>Artist : {gallery.artist_display}</p>
+        <Link href="/gallery/">
+          <button className="btn-r"> Back to Gallery </button>
+        </Link>
       </div>
-      <Link href="/gallery/">
-        <button className="btn-r"> Back to Gallery </button>
-      </Link>
     </div>
   );
 };

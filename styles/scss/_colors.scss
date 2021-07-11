@@ -1,0 +1,44 @@
+// gradient
+
+$black: #000000 !default;
+$white: #ffffff !default;
+
+// Colors ************************************
+
+// red
+$red: #d53f41;
+
+$medBlue: #4979ff;
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%);
+
+$grayishBlue: hsl(233, 8%, 62%);
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$veryLightGray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// plale color
+$pale-yellow: #f5f0ec;
+$pale-purple: #dbd8d6;
+$colors: (
+  home: #d16e8d,
+  about: #ffac83,
+  contact: #3f78c9,
+  courses: #49c4a3,
+);
+
+// linear-gradient
+$greenGradient: linear-gradient(to right, $limeGreen, $brightCyan);
+$lightDarkblue: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+$pastel: linear-gradient(
+  45deg,
+  #845ec2,
+  #d65db1,
+  #ff6f91,
+  #ff9671,
+  #ffc75f,
+  #f9f871
+);
+// transition
+$opacityTransition: all 500ms ease-in-out;
