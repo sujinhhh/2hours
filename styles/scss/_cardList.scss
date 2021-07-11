@@ -1,0 +1,36 @@
+.card-list {
+  background-color: $black;
+  input {
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+  & > button {
+    background-color: plum;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+  }
+  &__container {
+    margin: 0 auto;
+  }
+  &__card {
+    background-color: $white;
+    margin: 1rem;
+    display: inline-block;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 19px rgba($color: #830101, $alpha: 1);
+  }
+  h1 {
+    color: $black;
+    display: inline-block;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 3px 3px 19px rgba($color: #000000, $alpha: 1);
+    }
+  }
+}
