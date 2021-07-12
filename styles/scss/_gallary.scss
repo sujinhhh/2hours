@@ -68,6 +68,8 @@
   opacity: 1;
   z-index: 3;
   pointer-events: auto;
+  border: 1rem solid $white;
+
   img {
     width: 400px;
     max-height: 40vh;

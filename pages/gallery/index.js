@@ -18,10 +18,11 @@ export const getStaticProps = async () => {
 const Gallery = ({ gallery }) => {
   const title = useRef(null);
   const subtitle = useRef(null);
+  const bg = useRef(null);
 
   useEffect(() => {
     gsap.from(title.current, {
-      duration: 0.5,
+      duration: 0.8,
       autoAlpha: 0,
       x: -100,
       ease: "none",
@@ -32,6 +33,11 @@ const Gallery = ({ gallery }) => {
       x: 100,
       ease: "none",
       delay: 0.8,
+    });
+    gsap.from(bg.current, {
+      duration: 0.5,
+      autoAlpha: 0,
+      ease: "none",
     });
   }, [title, subtitle]);
 
@@ -66,7 +72,7 @@ const Gallery = ({ gallery }) => {
   };
 
   return (
-    <div className="gallery">
+    <div className="gallery" ref={bg}>
       <div className="gallery__title">
         <h1 ref={title}>ArT & Design </h1>
         <p ref={subtitle}> API from Art Institute of Chicago</p>

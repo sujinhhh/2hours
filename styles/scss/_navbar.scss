@@ -1,21 +1,33 @@
 nav {
-  // margin: 10px auto 80px;
   display: flex;
-  justify-content: flex-end;
+  max-width: 50rem;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
   .logo {
-    margin-right: auto;
+    // 옆정렬
+    // margin-right: auto;
     position: relative;
+
     img {
       width: 100px;
+      cursor: pointer;
     }
+
+    // 옆정렬
     h1 {
+      font-weight: 800;
       position: absolute;
-      top: 40px;
-      right: 0px;
+      top: 70px;
+      right: 50%;
+      cursor: pointer;
     }
   }
   a {
     margin: 12px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    color: $darkBlue;
+    font-weight: 400;
   }
 }

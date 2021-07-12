@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
+import Main from "./home";
 
 export default function Home() {
   return (
@@ -9,8 +10,7 @@ export default function Home() {
         <meta name="keywords" content="the best programmer" />
       </Head>
       <div>
-        <div>Home</div>
-        <button className="btn-r"> Click</button>
+        <Main />
       </div>
     </>
   );
