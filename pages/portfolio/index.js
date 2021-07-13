@@ -1,5 +1,11 @@
+import PortHeader from "./PortHeader";
+
 const Portfolio = () => {
-  return <div>Portfolio</div>;
+  return (
+    <div>
+      <PortHeader />
+    </div>
+  );
 };
 
 export default Portfolio;

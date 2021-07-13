@@ -1,19 +1,57 @@
 nav {
-  display: flex;
+  @include flex-center(row);
   max-width: 50rem;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
-  .logo {
-    // 옆정렬
-    // margin-right: auto;
-    position: relative;
+  position: relative;
 
+  .burger {
+    height: 4rem;
     img {
-      width: 100px;
-      cursor: pointer;
+      width: 4rem;
+    }
+    @include media(">425px") {
+      display: none;
+    }
+  }
+  .menu-mobile {
+    position: absolute;
+    top: 4rem;
+    background-color: $white;
+    z-index: 999;
+    @include flex-center(column);
+    .logo {
+      // 옆정렬
+      // margin-right: auto;
+      position: relative;
+      @include media("<425px") {
+        display: none;
+      }
+
+      img {
+        width: 100px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .menu-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media("<=425px") {
+      display: none;
     }
 
+    .logo {
+      // 옆정렬
+      // margin-right: auto;
+      position: relative;
+
+      img {
+        width: 100px;
+        cursor: pointer;
+      }
+    }
     // 옆정렬
     h1 {
       font-weight: 800;

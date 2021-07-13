@@ -16,6 +16,9 @@
     background-size: 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @include media("<=phone") {
+      font-size: 15vw;
+    }
   }
 
   p {
@@ -69,10 +72,18 @@
   z-index: 3;
   pointer-events: auto;
   border: 1rem solid $white;
+  display: flex;
+  justify-content: center;
+  @include media("<=425px") {
+    border: 0.5rem solid $red;
+  }
 
   img {
     width: 400px;
     max-height: 40vh;
+    @include media("<=425px") {
+      width: 50vw;
+    }
   }
 }
 
