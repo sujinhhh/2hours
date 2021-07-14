@@ -1,5 +1,5 @@
 import Hero from "./hero";
-import RightContainer from "./landing/rightContainer";
+import RightContainer from "./landing/RightContainer";
 import LeftContainer from "./landing/LeftContainer";
 
 const Main = () => {
