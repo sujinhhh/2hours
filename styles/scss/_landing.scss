@@ -50,6 +50,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+  mix-blend-mode: normal;
 }
 
 .resp-iframe {
@@ -100,4 +101,23 @@
       clip-path: inset(0 0% 0% 0%);
     }
   }
+}
+.video-container {
+  .over-color {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background-image: $ligtPurple;
+    mix-blend-mode: color-burn;
+  }
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  background-color: red($color: #000000);
 }
