@@ -1,6 +1,6 @@
 import CommonContainer from "./CommonContainer";
-import VideoPlayer from "./videoPlayer";
 import videoData from "./videoData";
+import VideoPlayer from "./VideoPlayer";
 
 const RightContainer = () => {
   return (
