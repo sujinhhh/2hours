@@ -1,16 +1,16 @@
 import CommonContainer from "./CommonContainer";
 import VideoPlayer from "./VideoPlayer";
-import { videoData } from "../../../data/landingData";
+// import { videoData } from "../../../data/landingData";
 
 const RightContainer = () => {
   return (
     <CommonContainer
-      mediaData={videoData}
+      // mediaData={videoData}
       position="right"
       title="Film"
       render={(media) => (
         <div className="container container-right">
-          <VideoPlayer src={media.videoUrl} />
+          <VideoPlayer />
           {/* <h1 className="container-big-title">{media.title}</h1> */}
         </div>
       )}

@@ -1,6 +1,4 @@
 const VideoPlayer = (src) => {
-  console.log(src);
-
   return (
     // <iframe
     //   // title={src}

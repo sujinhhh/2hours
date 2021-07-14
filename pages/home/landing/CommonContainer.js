@@ -17,6 +17,7 @@ const CommonContainer = (props) => {
                 active: media.mediaUrl === activeMedia.mediaUrl,
               })}
               onMouseEnter={() => setActiveMedia(media)}
+              onMouseLeave={() => console.log("hah")}
             >
               {media.title}
             </li>
