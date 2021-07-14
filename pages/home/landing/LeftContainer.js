@@ -11,7 +11,7 @@ const LeftContainer = () => {
       render={(media) => (
         <div className="container container-left">
           <ImagePlayer src={media.mediaUrl} />
-          {/* <h1 className="container-big-title">{media.title}</h1> */}
+          <h1 className="container-big-title">{media.title}</h1>
         </div>
       )}
     />
