@@ -17,12 +17,12 @@ const CommonContainer = (props) => {
               })}
               onMouseEnter={() => setActiveMedia(media)}
             >
-              {/* {media.title} */}
+              {media.title}
             </li>
           ))}
         </ul>
       </div>
-      {props.render(activeMedia)}
+      {/* {props.render(activeMedia)} */}
     </>
   );
 };
