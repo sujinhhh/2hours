@@ -1,5 +1,4 @@
 import Hero from "./hero";
-
 import RightContainer from "./landing/RightContainer";
 import LeftContainer from "./landing/LeftContainer";
 
