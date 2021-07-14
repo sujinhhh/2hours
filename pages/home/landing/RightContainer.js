@@ -1,4 +1,4 @@
-import CommonContainer from "./commonContainer";
+import CommonContainer from "./CommonContainer";
 import VideoPlayer from "./videoPlayer";
 import videoData from "./videoData";
 
