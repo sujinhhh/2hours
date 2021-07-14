@@ -9,7 +9,7 @@ const CommonContainer = (props) => {
     <>
       <div>
         {/* <h2>{props.mediaData}</h2> */}
-        {/* <ul className={`navigation ${props.position}`}>
+        <ul className={`navigation ${props.position}`}>
           {props.mediaData.map((media, index) => (
             <li
               key={index}
@@ -21,7 +21,7 @@ const CommonContainer = (props) => {
               {media.title}
             </li>
           ))}
-        </ul> */}
+        </ul>
       </div>
       {props.render(activeMedia)}
     </>
