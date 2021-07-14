@@ -9,7 +9,9 @@ export default function Home() {
         <title>Home</title>
         <meta name="keywords" content="the best programmer" />
       </Head>
-      <div>{/* <Main /> */}</div>
+      <div>
+        <Main />
+      </div>
     </>
   );
 }

@@ -8,7 +8,7 @@ const CommonContainer = (props) => {
   return (
     <>
       <div>
-        {/* <h2>{props.mediaData}</h2> */}
+        <h2>{props.mediaData}</h2>
         <ul className={`navigation ${props.position}`}>
           {props.mediaData.map((media, index) => {
             return (
