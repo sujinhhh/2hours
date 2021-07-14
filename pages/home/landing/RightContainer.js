@@ -1,5 +1,5 @@
 import CommonContainer from "./CommonContainer";
-import videoData from "../../../components/videoData";
+import { videoData } from "../../../components/landingData";
 import VideoPlayer from "./VideoPlayer";
 
 const RightContainer = () => {
