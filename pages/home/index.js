@@ -3,9 +3,9 @@ import Hero from "./hero";
 import RightContainer from "./landing/RightContainer";
 import LeftContainer from "./landing/LeftContainer";
 
-const Main = () => {
+const Homepage = () => {
   return (
-    <div className="home">
+    <div className="Homepage">
       <div className="hover-left" />
       <div className="hover-right" />
       <LeftContainer />
@@ -17,4 +17,4 @@ const Main = () => {
   å;
 };
 
-export default Main;
+export default Homepage;

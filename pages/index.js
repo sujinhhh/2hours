@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Main from "./home";
+import HomePage from "./home";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="keywords" content="the best programmer" />
       </Head>
       <div>
-        <Main />
+        <HomePage />
       </div>
     </>
   );

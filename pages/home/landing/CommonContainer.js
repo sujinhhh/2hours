@@ -22,7 +22,7 @@ const CommonContainer = (props) => {
           ))}
         </ul>
       </div>
-      {/* {props.render(activeMedia)} */}
+      {props.render(activeMedia)}
     </>
   );
 };
