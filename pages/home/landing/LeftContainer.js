@@ -1,6 +1,6 @@
-import CommonContainer from "./CommonContainer";
-import ImagePlayer from "./ImagePlayer";
-import { imageData } from "../../../data/landingData";
+import CommonContainer from "./commonContainer";
+import ImagePlayer from "./imagePlayer";
+import { imageData } from "./landingData";
 
 const LeftContainer = () => {
   return (
