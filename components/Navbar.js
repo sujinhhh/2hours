@@ -1,6 +1,5 @@
 import Link from "next/link";
 import * as FaIcons from "react-icons/fa";
-import OnOff from "./parts/onOff";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
