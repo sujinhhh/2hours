@@ -1,24 +1,22 @@
 .hero {
   width: 100vw;
   height: 100vh;
-  background-image: $ligtPurple;
-  background-size: 200%;
-  animation: animate 10s linear infinite alternate;
+  @include flex-center(row);
 
   &__container {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 50%;
     background-color: $white;
     border-radius: 30px;
     margin: 0 auto;
     opacity: 0.5;
     position: relative;
-    @include flex-center(row);
+
     h1 {
       position: absolute;
       font-size: 10rem;
-      color: black;
-      opacity: 1;
+      color: rgba(252, 252, 252, 1);
+
       z-index: 6;
       font-family: "Nanum Brush Script", cursive;
     }

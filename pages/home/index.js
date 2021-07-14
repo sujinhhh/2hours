@@ -5,16 +5,15 @@ import RightContainer from "./landing/RightContainer";
 const Main = () => {
   return (
     <div className="home">
-      <div className="hover-left">
-        <div className="hover-right">
-          <LeftContainer />
-          <RightContainer />
-          <h1 className="center-text">Stories</h1>
-        </div>
-      </div>
+      <div className="hover-left" />
+      <div className="hover-right" />
+      <LeftContainer />
+      <RightContainer />
+      <h1 className="center-text">해보지머</h1>
       <Hero />
     </div>
   );
+  å;
 };
 
 export default Main;

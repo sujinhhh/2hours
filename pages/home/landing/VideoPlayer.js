@@ -1,7 +1,7 @@
 const VideoPlayer = () => {
   return (
     <iframe
-      title={src}
+      // title={src}
       src=""
       width="640"
       height="360"

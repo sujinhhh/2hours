@@ -37,16 +37,14 @@
     background-repeat: no-repeat;
   }
 
-  .active {
+  .mask .data-show {
     transform: translateY(-100%);
     transition: 0.5s transform ease-in-out;
   }
 
-  .up {
+  .mask .data-up {
     transform: translateY(-200%);
     transition: 0.5s transform ease-in-out;
-    transition-property: opacity, left, top, height;
-    transition-duration: 3s, 5s;
   }
 
   .mask span:nth-child(1) {

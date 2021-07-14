@@ -1,0 +1,102 @@
+.home {
+  cursor: pointer;
+  position: relative;
+  .hover-left {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20vw;
+    z-index: 1;
+    &:hover ~ .container-right {
+      clip-path: inset(0 0% 0% 80%);
+    }
+  }
+  .hover-right {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20vw;
+    z-index: 1;
+    &:hover ~ .container-right {
+      clip-path: inset(0 0% 0% 20%);
+    }
+  }
+}
+
+.container-right,
+.container-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: $ligtPurple;
+  background-size: 200%;
+  animation: animate 10s linear infinite alternate;
+}
+
+.container-right {
+  overflow: hidden;
+  clip-path: inset(0 0% 0% 50%);
+  transition: clip-path 1s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.image-player {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.resp-iframe {
+  box-sizing: border-box;
+  height: 56.25vw;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%) scale(1.1);
+  position: absolute;
+  top: 50%;
+  width: 177.7777vh;
+  pointer-events: none;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  z-index: 6;
+  color: rgb(252, 252, 252);
+  transform: translate(50%, -70%);
+  font-size: 15rem;
+  mix-blend-mode: normal;
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  font-family: "Nanum Brush Script", cursive;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.navigation {
+  position: absolute;
+  top: 2rem;
+  font-size: 1.5rem;
+  color: $white;
+  z-index: 6;
+  cursor: pointer;
+  &.left {
+    text-align: left;
+    left: 1.25rem;
+    &:hover ~ .container-left {
+      clip-path: inset(0 0% 0% 100%);
+    }
+  }
+  &.right {
+    text-align: right;
+    right: 1.25rem;
+    &:hover ~ .container-right {
+      clip-path: inset(0 0% 0% 0%);
+    }
+  }
+}
