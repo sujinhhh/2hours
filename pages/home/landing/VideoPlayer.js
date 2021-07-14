@@ -1,15 +1,18 @@
-const VideoPlayer = () => {
+const VideoPlayer = (src) => {
+  console.log(src);
+
   return (
     <iframe
       // title={src}
-      src=""
-      width="640"
-      height="360"
-      webkitallowfullscreen
-      mozallowfullscreen
-      allowfullscreen
+      // src="https://sujinhhh.github.io/video/cloebak.mp4"
+      width="1000"
+      height="500"
+      className={`resp-iframe`}
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allowFullScreen
       allow="autoplay; fullscreen"
-      frameborder="0"
+      frameBorder="0"
       controls="0"
     ></iframe>
   );
