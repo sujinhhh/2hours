@@ -10,8 +10,8 @@ const RightContainer = () => {
       title="Film"
       render={(media) => (
         <div className="container container-right">
-          <VideoPlayer src={media.mediaUrl} />
-          <h1 className="container-big-title">{media.title}</h1>
+          <VideoPlayer src={media.videoUrl} />
+          {/* <h1 className="container-big-title">{media.title}</h1> */}
         </div>
       )}
     />
