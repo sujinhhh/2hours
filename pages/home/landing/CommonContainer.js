@@ -2,6 +2,8 @@ import { useState } from "react";
 import cn from "classnames";
 
 const CommonContainer = (props) => {
+  console.log(props);
+
   const [first] = props.mediaData;
   const [activeMedia, setActiveMedia] = useState(first);
 
