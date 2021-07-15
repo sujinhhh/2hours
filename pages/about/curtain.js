@@ -12,7 +12,7 @@ const Curtain = () => {
 
   useEffect(() => {
     TweenMax.to(flower1, 3, {
-      opacity: 0.2,
+      opacity: 0,
       x: 90,
       y: -100,
       scale: 5,
