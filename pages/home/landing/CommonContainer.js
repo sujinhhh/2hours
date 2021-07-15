@@ -43,8 +43,8 @@ const CommonContainer = ({ position }) => {
           ))}
         </ul>
       </div>
-      {/* <div className="hover-left"> 
-      <div className="hover-right"> */}
+      {/* <div className="hover-left" />
+      <div className="hover-right" /> */}
       <div position="left" title="Photo">
         <div className="container container-left">
           <ImagePlayer src={activeMedia.mediaUrl} />

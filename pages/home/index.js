@@ -7,7 +7,6 @@ const Homepage = () => {
       <div className="hover-left" />
       <div className="hover-right" />
       <CommonContainer />
-      <h1 className="center-text">해보지머</h1>
       <Hero />
     </div>
   );
