@@ -45,13 +45,13 @@ const CommonContainer = ({ position }) => {
       </div>
       {/* <div className="hover-left" />
       <div className="hover-right" /> */}
-      <div position="left" title="Photo">
+      <div position="left" title="Photo" className="container container-left">
         <div className="container container-left">
           <ImagePlayer src={activeMedia.mediaUrl} />
         </div>
       </div>
-      <div position="right" title="Film">
-        <div className="container container-right">
+      <div position="right" title="Film" className="container container-right">
+        <div className="container ">
           <VideoPlayer />
         </div>
       </div>
