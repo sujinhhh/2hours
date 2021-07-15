@@ -2,6 +2,8 @@ import { useState } from "react";
 import cn from "classnames";
 
 const CommonContainer = ({ position, render }) => {
+  console.log(render);
+
   const imageData = [
     {
       mediaUrl:
