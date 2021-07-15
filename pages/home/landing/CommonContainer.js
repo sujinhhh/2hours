@@ -43,7 +43,8 @@ const CommonContainer = ({ position }) => {
           ))}
         </ul>
       </div>
-
+      {/* <div className="hover-left"> 
+      <div className="hover-right"> */}
       <div position="left" title="Photo">
         <div className="container container-left">
           <ImagePlayer src={activeMedia.mediaUrl} />
@@ -54,17 +55,6 @@ const CommonContainer = ({ position }) => {
           <VideoPlayer />
         </div>
       </div>
-
-      {/* <CommonContainer
-      position="right"
-      title="Film"
-      render={(media) => (
-        <div className="container container-right">
-          <VideoPlayer src={media.videoUrl} />
- 
-        </div>
-      )}
-    /> */}
     </>
   );
 };

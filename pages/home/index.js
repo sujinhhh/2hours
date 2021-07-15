@@ -1,14 +1,12 @@
 import Hero from "./hero";
-import RightContainer from "./landing/RightContainer";
-import LeftContainer from "./landing/LeftContainer";
+import CommonContainer from "./landing/CommonContainer";
 
 const Homepage = () => {
   return (
     <div className="home">
       <div className="hover-left" />
       <div className="hover-right" />
-      <LeftContainer />
-      <RightContainer />
+      <CommonContainer />
       <h1 className="center-text">해보지머</h1>
       <Hero />
     </div>
