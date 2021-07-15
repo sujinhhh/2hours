@@ -1,11 +1,10 @@
 import Hero from "./hero";
-
 import RightContainer from "./landing/RightContainer";
 import LeftContainer from "./landing/LeftContainer";
 
 const Homepage = () => {
   return (
-    <div className="Homepage">
+    <div className="home">
       <div className="hover-left" />
       <div className="hover-right" />
       <LeftContainer />
