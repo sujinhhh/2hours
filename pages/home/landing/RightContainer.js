@@ -6,7 +6,7 @@ const RightContainer = () => {
     <CommonContainer
       position="right"
       title="Film"
-      arender={(media) => (
+      render={(media) => (
         <div className="container container-right">
           <VideoPlayer src={media.videoUrl} />
           {/* <h1 className="container-big-title">{media.title}</h1> */}

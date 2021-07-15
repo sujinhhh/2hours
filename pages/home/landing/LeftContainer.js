@@ -6,7 +6,7 @@ const LeftContainer = () => {
     <CommonContainer
       position="left"
       title="Photo"
-      arender={(media) => (
+      render={(media) => (
         <div className="container container-left">
           <ImagePlayer src={media.mediaUrl} />
           {/* <h1 className="container-big-title">{media.title}</h1> */}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import cn from "classnames";
 
-const CommonContainer = ({ position, arender }) => {
+const CommonContainer = ({ position, render }) => {
   const imageData = [
     {
       mediaUrl:
@@ -40,7 +40,7 @@ const CommonContainer = ({ position, arender }) => {
           ))}
         </ul>
       </div>
-      {arender(activeMedia)}
+      {render(activeMedia)}
     </>
   );
 };
