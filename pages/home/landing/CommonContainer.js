@@ -1,10 +1,9 @@
 import { useState } from "react";
 import cn from "classnames";
 import ImagePlayer from "./ImagePlayer";
+import VideoPlayer from "./VideoPlayer";
 
-const CommonContainer = ({ position, render }) => {
-  console.log(render);
-
+const CommonContainer = ({ position }) => {
   const imageData = [
     {
       mediaUrl:
@@ -22,7 +21,7 @@ const CommonContainer = ({ position, render }) => {
       title: "Ohahah",
     },
   ];
-  const first = imageData[0];
+  const first = imageData[1];
   const [activeMedia, setActiveMedia] = useState(first);
   console.log(activeMedia);
 
@@ -44,7 +43,28 @@ const CommonContainer = ({ position, render }) => {
           ))}
         </ul>
       </div>
-      {/* {render(activeMedia)} */}
+
+      <div position="left" title="Photo">
+        <div className="container container-left">
+          <ImagePlayer src={activeMedia.mediaUrl} />
+        </div>
+      </div>
+      <div position="right" title="Film">
+        <div className="container container-right">
+          <VideoPlayer />
+        </div>
+      </div>
+
+      {/* <CommonContainer
+      position="right"
+      title="Film"
+      render={(media) => (
+        <div className="container container-right">
+          <VideoPlayer src={media.videoUrl} />
+ 
+        </div>
+      )}
+    /> */}
     </>
   );
 };
