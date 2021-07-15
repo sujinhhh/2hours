@@ -1,6 +1,5 @@
 import CommonContainer from "./CommonContainer";
 import ImagePlayer from "./ImagePlayer";
-// import { imageData } from "../../../components/landingData";
 
 const LeftContainer = () => {
   const imageData = [

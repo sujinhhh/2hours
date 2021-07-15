@@ -22,7 +22,6 @@ const RightContainer = () => {
   ];
   return (
     <CommonContainer
-      mediaData={videoData}
       position="right"
       title="Film"
       render={(media) => (
