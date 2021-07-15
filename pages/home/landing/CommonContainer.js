@@ -44,7 +44,7 @@ const CommonContainer = ({ position, render }) => {
           ))}
         </ul>
       </div>
-      {render(activeMedia)}
+      {/* {render(activeMedia)} */}
     </>
   );
 };
