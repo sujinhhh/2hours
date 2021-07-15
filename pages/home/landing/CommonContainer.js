@@ -1,7 +1,10 @@
 import { useState } from "react";
 import cn from "classnames";
+import ImagePlayer from "./ImagePlayer";
 
 const CommonContainer = ({ position, render }) => {
+  console.log(render);
+
   const imageData = [
     {
       mediaUrl:
@@ -21,6 +24,7 @@ const CommonContainer = ({ position, render }) => {
   ];
   const first = imageData[0];
   const [activeMedia, setActiveMedia] = useState(first);
+  console.log(activeMedia);
 
   return (
     <>
