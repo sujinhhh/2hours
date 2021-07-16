@@ -2,6 +2,7 @@ import { useState } from "react";
 import cn from "classnames";
 import ImagePlayer from "./ImagePlayer";
 import VideoPlayer from "./VideoPlayer";
+import Hero from "../hero";
 
 const CommonContainer = ({ position }) => {
   const imageData = [
