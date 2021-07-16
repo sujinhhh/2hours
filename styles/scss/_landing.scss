@@ -35,7 +35,7 @@
   width: 100vw;
   height: 100vh;
   background-image: $ligtPurple;
-  background-size: 200%;
+  background-size: 100%;
   animation: animate 10s linear infinite alternate;
 }
 
@@ -43,14 +43,17 @@
   overflow: hidden;
   clip-path: inset(0 0% 0% 50%);
   transition: clip-path 1s cubic-bezier(0.77, 0, 0.175, 1);
+  &:hover {
+    clip-path: inset(0 0% 0% 10%);
+  }
 }
+
 .image-player {
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: left;
+  background-size: contain;
   height: 100%;
   width: 100%;
-  mix-blend-mode: normal;
 }
 
 .resp-iframe {
@@ -90,8 +93,10 @@
   &.left {
     text-align: left;
     left: 1.25rem;
-    &:hover ~ .container-left {
-      clip-path: inset(0 0% 0% 100%);
+    &:hover {
+      .container-left {
+        clip-path: inset(0 0% 0% 100%);
+      }
     }
   }
   &.right {
@@ -102,6 +107,8 @@
     }
   }
 }
+
+=======
 .video-container {
   .over-color::before {
     content: "";
@@ -114,8 +121,8 @@
     // background: rgba(15, 15, 15, 0.625);
     background: linear-gradient(
       to left,
-      rgb(168, 145, 236, 0.8) 20%,
-      rgba(243, 120, 229, 0.625) 80%
+      rgb(168, 145, 236, 0.6) 20%,
+      rgba(243, 120, 229, 0.6) 80%
     );
   }
   video {
@@ -126,3 +133,4 @@
   }
   background-color: red($color: #000000);
 }
+

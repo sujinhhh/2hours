@@ -1,5 +1,14 @@
 import { useState } from "react";
 import cn from "classnames";
+import ImagePlayer from "./ImagePlayer";
+import VideoPlayer from "./VideoPlayer";
+
+
+const CommonContainer = (props) => {
+  console.log(props);
+
+  const [first] = props.mediaData;
+
 
 const CommonContainer = ({ position, render }) => {
   console.log(render);
@@ -22,7 +31,9 @@ const CommonContainer = ({ position, render }) => {
     },
   ];
   const first = imageData[0];
+
   const [activeMedia, setActiveMedia] = useState(first);
+  console.log(activeMedia);
 
   return (
     <>
@@ -42,7 +53,18 @@ const CommonContainer = ({ position, render }) => {
           ))}
         </ul>
       </div>
-      {render(activeMedia)}
+      {/* <div className="hover-left" />
+      <div className="hover-right" /> */}
+      <div position="left" title="Photo">
+        <div className="container container-left">
+          <ImagePlayer src={activeMedia.mediaUrl} />
+        </div>
+      </div>
+      <div position="right" title="Film">
+        <div className="container container-right">
+          <VideoPlayer />
+        </div>
+      </div>
     </>
   );
 };
