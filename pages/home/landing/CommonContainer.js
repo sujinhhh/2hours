@@ -14,9 +14,9 @@ const CommonContainer = ({ position }) => {
   return (
     <>
       <div>
-        <ul className={`navigation ${position}`}>
+        <div className={`navigation ${position}`}>
           {imageData.map((media, index) => (
-            <li
+            <ul
               key={index}
               className={cn({
                 active: media.mediaUrl === activeMedia.mediaUrl,
@@ -24,10 +24,10 @@ const CommonContainer = ({ position }) => {
               onMouseEnter={() => setActiveMedia(media)}
               onMouseLeave={() => {}}
             >
-              {media.title}
-            </li>
+              <li>{media.title}</li>
+            </ul>
           ))}
-        </ul>
+        </div>
       </div>
       {/* <div className="hover-left" />
       <div className="hover-right" /> */}

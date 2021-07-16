@@ -1,19 +1,10 @@
 import { Curtains } from "curtainsjs";
 import React from "react";
 
-const isBrowser = typeof window !== "undefined";
 
-const initialState = {
-  curtains: new Curtains({
-    pixelRatio: Math.min(1.5, isBrowser && window.devicePixelRatio),
-  }),
-  container: null,
-  scrollEffect: 0,
-};
+const initialState = 0
 
-const CurainConext = React.createContext(initialState);
-
-// Action type 설정
+// Action type 설
 export const SET_CURTAINS_CONTAINER = "SET_CURTAINS_CONTAINER";
 
 export const SET_SCROLL_EFFECT = "SET_SCROLL_EFFECT";
