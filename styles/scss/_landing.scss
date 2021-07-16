@@ -86,7 +86,8 @@
 
 .navigation {
   position: absolute;
-  top: 2rem;
+  top: 50%;
+  right: 50%;
   font-size: 1.5rem;
   color: $white;
   z-index: 6;
@@ -106,6 +107,10 @@
     &:hover ~ .container-right {
       clip-path: inset(0 0% 0% 0%);
     }
+  }
+  li {
+    color: $black;
+    text-align: right;
   }
 }
 .video-container {
