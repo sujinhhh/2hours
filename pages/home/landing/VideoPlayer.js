@@ -1,7 +1,6 @@
-const VideoPlayer = (src) => {
-  console.log(src);
-
+const VideoPlayer = () => {
   return (
+
     <iframe
       // title={src}
       // src="https://sujinhhh.github.io/video/cloebak.mp4"
@@ -15,6 +14,7 @@ const VideoPlayer = (src) => {
       frameBorder="0"
       controls="0"
     ></iframe>
+
   );
 };
 

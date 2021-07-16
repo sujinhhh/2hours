@@ -1,18 +1,22 @@
 import { useState } from "react";
 import cn from "classnames";
+import ImagePlayer from "./ImagePlayer";
+import VideoPlayer from "./VideoPlayer";
+
 
 const CommonContainer = (props) => {
   console.log(props);
 
   const [first] = props.mediaData;
+
   const [activeMedia, setActiveMedia] = useState(first);
+  console.log(activeMedia);
 
   return (
     <>
       <div>
-        {/* <h2>{props.mediaData}</h2> */}
-        <ul className={`navigation ${props.position}`}>
-          {props.mediaData.map((media, index) => (
+        <ul className={`navigation ${position}`}>
+          {imageData.map((media, index) => (
             <li
               key={index}
               className={cn({
@@ -26,7 +30,18 @@ const CommonContainer = (props) => {
           ))}
         </ul>
       </div>
-      {props.render(activeMedia)}
+      {/* <div className="hover-left" />
+      <div className="hover-right" /> */}
+      <div position="left" title="Photo">
+        <div className="container container-left">
+          <ImagePlayer src={activeMedia.mediaUrl} />
+        </div>
+      </div>
+      <div position="right" title="Film">
+        <div className="container container-right">
+          <VideoPlayer />
+        </div>
+      </div>
     </>
   );
 };

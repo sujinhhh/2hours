@@ -1,11 +1,12 @@
 import CommonContainer from "./CommonContainer";
 import VideoPlayer from "./VideoPlayer";
+
 import { videoData } from "./landingData";
+
 
 const RightContainer = () => {
   return (
     <CommonContainer
-      mediaData={videoData}
       position="right"
       title="Film"
       render={(media) => (
