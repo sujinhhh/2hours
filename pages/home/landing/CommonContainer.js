@@ -30,7 +30,7 @@ const CommonContainer = ({ position, render }) => {
       title: "Ohahah",
     },
   ];
-  const first = imageData[0];
+  const first = imageData[1];
 
   const [activeMedia, setActiveMedia] = useState(first);
   console.log(activeMedia);
