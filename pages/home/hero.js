@@ -1,7 +1,13 @@
-import { useRef } from "react";
-import Link from "next/link";
+import { useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { differentImage } from "../../redux/reducers/changeImage";
 
 const Hero = () => {
+  const dispatch = useDispatch();
+  const count = useSelector((state) => state.changeImage.image);
+
+  console.log(count);
+
   return (
     <div className="hero">
       <div className="hero__container">
@@ -16,15 +22,9 @@ const Hero = () => {
             </p>
 
             <div className="menu">
-              {/* <Link to="/about"> */}
               <button>me</button>
-              {/* </Link>
-              <Link to="/work"> */}
               <button>work</button>
-              {/* </Link>
-              <Link to="/blog"> */}
               <button>Blog</button>
-              {/* </Link> */}
             </div>
           </div>
         </div>

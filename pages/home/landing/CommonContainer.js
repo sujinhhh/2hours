@@ -2,26 +2,11 @@ import { useState } from "react";
 import cn from "classnames";
 import ImagePlayer from "./ImagePlayer";
 import VideoPlayer from "./VideoPlayer";
-import Hero from "../hero";
+import { useDispatch, useSelector } from "react-redux";
 
 const CommonContainer = ({ position }) => {
-  const imageData = [
-    {
-      mediaUrl:
-        "https://images.unsplash.com/photo-1601979689063-cb474664e70b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80",
-      title: "Ohahah",
-    },
-    {
-      mediaUrl:
-        "https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      title: "Ohahah",
-    },
-    {
-      mediaUrl:
-        "https://images.unsplash.com/photo-1614481327033-68e5df399653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=951&q=80",
-      title: "Ohahah",
-    },
-  ];
+  const dispatch = useDispatch();
+  const imageData = useSelector((state) => state.changeImage.image);
   const first = imageData[1];
   const [activeMedia, setActiveMedia] = useState(first);
   console.log(activeMedia);

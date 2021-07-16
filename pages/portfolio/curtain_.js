@@ -7,7 +7,7 @@ import {
 } from "../../redux/reducers/count";
 import { useEffect } from "react";
 
-const Curtain = () => {
+const Curtain01 = () => {
   const planeEl = useRef();
   const container = useRef();
   const dispatch = useDispatch();
@@ -138,4 +138,4 @@ const Curtain = () => {
   );
 };
 
-export default Curtain;
+export default Curtain01;

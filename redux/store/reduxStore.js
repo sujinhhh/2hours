@@ -1,4 +1,3 @@
-import { Curtains } from "curtainsjs";
 import { useEffect } from "react";
 useEffect(() => {}, []);
 const initialState = {

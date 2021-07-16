@@ -13,7 +13,7 @@ const initialState = {
 
 const CurainConext = React.createContext(initialState);
 
-// Action type 설벙
+// Action type 설정
 export const SET_CURTAINS_CONTAINER = "SET_CURTAINS_CONTAINER";
 
 export const SET_SCROLL_EFFECT = "SET_SCROLL_EFFECT";
