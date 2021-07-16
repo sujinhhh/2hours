@@ -54,7 +54,6 @@
   background-size: contain;
   height: 100%;
   width: 100%;
-  mix-blend-mode: normal;
 }
 
 .resp-iframe {
@@ -108,6 +107,8 @@
     }
   }
 }
+
+=======
 .video-container {
   .over-color::before {
     content: "";
@@ -132,3 +133,4 @@
   }
   background-color: red($color: #000000);
 }
+

@@ -1,6 +1,9 @@
 import CommonContainer from "./CommonContainer";
 import VideoPlayer from "./VideoPlayer";
 
+import { videoData } from "./landingData";
+
+
 const RightContainer = () => {
   return (
     <CommonContainer
@@ -8,7 +11,7 @@ const RightContainer = () => {
       title="Film"
       render={(media) => (
         <div className="container container-right">
-          <VideoPlayer src={media.videoUrl} />
+          {/* <VideoPlayer src={media.videoUrl} /> */}
           {/* <h1 className="container-big-title">{media.title}</h1> */}
         </div>
       )}

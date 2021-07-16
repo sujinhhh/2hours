@@ -1,15 +1,20 @@
 const VideoPlayer = () => {
   return (
-    <div className="video-container">
-      <div className="over-color" />
-      <video
-        className="video"
-        src="https://player.vimeo.com/external/435674703.sd.mp4?s=01ad1ba21dc72c1d34728e1b77983805b34daad7&profile_id=165&oauth2_token_id=57447761"
-        autoPlay
-        loop
-        muted
-      ></video>
-    </div>
+
+    <iframe
+      // title={src}
+      // src="https://sujinhhh.github.io/video/cloebak.mp4"
+      width="1000"
+      height="500"
+      className={`resp-iframe`}
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allowFullScreen
+      allow="autoplay; fullscreen"
+      frameBorder="0"
+      controls="0"
+    ></iframe>
+
   );
 };
 
