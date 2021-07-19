@@ -10,8 +10,7 @@ const Portfolio01 = () => {
   const [activeIndex, setActiveIndex] = useState(-1);
 
   const handleSetRotation = (itemIndex) => {
-    const newRotation =
-      Math.random() * 100 * (Math.round(Math.random) ? 1 : -1);
+    const newRotation = Math.random() * 20 * (Math.round(Math.random) ? 1 : -1);
     const tempState = [...rotationPosition];
     tempState[itemIndex] = newRotation;
     setRotation(tempState);
@@ -35,7 +34,7 @@ const Portfolio01 = () => {
           })}
         </div>
         <div className="image-container">
-          {portfolioData.map(({ url, title }, index) => {
+          {portfolioData.map(({ url, title, description }, index) => {
             return (
               <PortImage
                 key={index}
@@ -43,6 +42,7 @@ const Portfolio01 = () => {
                 title={title}
                 active={activeIndex === index}
                 rotationPosition={rotationPosition[index]}
+                description={description}
               />
             );
           })}

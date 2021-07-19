@@ -17,9 +17,8 @@
 
 .port-image {
   position: absolute;
-
-  height: 60vh;
-  width: auto;
+  height: auto;
+  width: 60vw;
   transition: transform 0.1s ease-in-out;
   filter: greyscale();
   z-index: 98;
@@ -42,12 +41,14 @@
     display: block;
     font-size: 10vw;
     line-height: 1.25;
-    color: #2d2d2d;
+    color: #bababa;
+    opacity: 0.5;
     transition: color 0.1s ease-in-out;
   }
   & :hover {
     h1 {
-      color: #bababa;
+      color: plum;
+      opacity: 1;
     }
   }
   .title-item {
@@ -55,5 +56,21 @@
     &:hover {
       color: #2d2d2d;
     }
+  }
+}
+
+.port-description {
+  width: 30vw;
+  height: 40vh;
+  display: none;
+  position: absolute;
+  right: 0;
+
+  &.active {
+    z-index: 999;
+    display: block;
+    transition: color 0.1s ease-in-out;
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
   }
 }
