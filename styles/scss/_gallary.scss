@@ -49,6 +49,7 @@
   @include flex-center(row);
   transition: $opacityTransition;
   margin: 3rem;
+  transition: transform 300ms;
   img {
     width: fit-content;
     max-height: 70vh;
