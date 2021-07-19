@@ -1,10 +1,16 @@
 import PortHeader from "./PortHeader";
+import Portfolio01 from "./Portfolio01";
 
 const Portfolio = () => {
   return (
-    <div>
-      <PortHeader />
-    </div>
+    <>
+      <div className="hero-container">
+        <PortHeader />
+        <div className="hero-media">
+          <Portfolio01 />
+        </div>
+      </div>
+    </>
   );
 };
 
