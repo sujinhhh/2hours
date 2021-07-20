@@ -13,20 +13,26 @@
   align-items: center;
   z-index: -1;
   top: 0;
+  perspective: 1000px;
 }
 
 .port-image {
+  transform-style: preserve-3d;
   position: absolute;
   height: auto;
   width: 60vw;
   transition: transform 0.1s ease-in-out;
-  filter: greyscale();
+
   z-index: 98;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
     0 4px 8px rgba(0, 0, 0, 0.04), 0 8px 16px rgba(0, 0, 0, 0.04),
     0 16px 32px rgba(0, 0, 0, 0.04), 0.32px 64px rgba(0, 0, 0, 0.04);
   &.active {
     z-index: 99;
+    box-shadow: 3px 10px 20px rgba(75, 73, 73, 0.6);
+    transform: perspective(1200px) rotateX(50deg) rotateY(20deg) rotateZ(-25deg)
+      translateX(35px) translateY(0px) translateZ(180px);
+    filter: greyscale();
   }
 }
 
@@ -36,7 +42,12 @@
   position: relative;
   display: block;
   padding-top: 37.77vh;
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
+  transform-style: preserve-3d;
+  transform: rotateY(2deg) rotateX(2deg) rotateZ(-10deg);
+  transform: rotateY(2deg) rotateX(2deg) rotateZ(-15deg);
+  box-shadow: -4px 40px 80px -10px rgba(0, 0, 0, 0.4);
+
   h1 {
     display: block;
     font-size: 10vw;
@@ -44,11 +55,14 @@
     color: #bababa;
     opacity: 0.5;
     transition: color 0.1s ease-in-out;
+
+    transition: transform 0.4s ease-in-out;
   }
   & :hover {
     h1 {
       color: plum;
       opacity: 1;
+      transform: translateX(50px);
     }
   }
   .title-item {
@@ -60,17 +74,45 @@
 }
 
 .port-description {
-  width: 30vw;
-  height: 40vh;
-  display: none;
+  width: 40vw;
+  height: 100%;
+  padding-right: 2rem;
+  visibility: hidden;
   position: absolute;
-  right: 0;
+  transform: translateX(500px);
+  transition: transform 0.5s ease-in-out;
 
   &.active {
+    width: 30vw;
+    visibility: visible;
+    height: 100%;
     z-index: 999;
-    display: block;
-    transition: color 0.1s ease-in-out;
-    background-color: white;
-    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    right: 0;
+    transform: translate(0px, 0px);
+    background-color: rgb(220, 151, 223);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.04),
+      3px 4px 8px rgba(0, 0, 0, 0.04), 4px 8px 16px rgba(0, 0, 0, 0.04),
+      5px 3px 16px 32px rgba(0, 0, 0, 0.04), 6px 0.32px 24px rgba(0, 0, 0, 0.4);
+    color: rgb(250, 249, 249);
+
+    @include flex-center(column);
+    h1 {
+      margin: 0 auto;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.3rem;
+      text-align: left;
+      color: purple;
+    }
+    h2 {
+      margin: 0 auto;
+      padding: 1rem;
+      width: 100%;
+      padding-right: 1rem;
+      font-size: 1rem;
+      text-align: left;
+      color: $white;
+    }
   }
 }

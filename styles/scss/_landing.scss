@@ -85,16 +85,17 @@
 }
 
 .navigation {
-  position: absolute;
-  top: 50%;
-  right: 50%;
+  position: relative;
+  @include flex-center(column);
   font-size: 1.5rem;
   color: $white;
   z-index: 6;
   cursor: pointer;
+
   &.left {
-    text-align: left;
+    // text-align: left;
     left: 1.25rem;
+
     &:hover {
       .container-left {
         clip-path: inset(0 0% 0% 100%);
@@ -109,8 +110,11 @@
     }
   }
   li {
-    color: $black;
-    text-align: right;
+    line-height: 60px;
+    right: -50%;
+    left: 50%;
+    text-align: center;
+    color: white;
   }
 }
 .video-container {

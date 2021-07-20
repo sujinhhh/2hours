@@ -2,6 +2,7 @@ const portfolioData = [
   {
     url: "./movie.png",
     title: "React JS ",
+    subTitle: "Movie api & Shoping Cart",
     tools: "JavaScript, React",
     website: "https://dream-f5a51.web.app/",
     description:
@@ -10,6 +11,7 @@ const portfolioData = [
   {
     url: "./shop.png",
     title: "JavaScript",
+    subTitle: "Movie api & Shoping Cart",
     tools: "JavaScript, React",
     website: "https://sujinhhh.github.io/shop/",
     description:
@@ -18,6 +20,7 @@ const portfolioData = [
   {
     url: "https://sujinhhh.github.io/img/fish.png",
     title: "Node JS",
+    subTitle: "Movie api & Shoping Cart",
     tools: "JavaScript, React",
     website: "https://node-modu.herokuapp.com/blogs",
     description:
@@ -26,6 +29,7 @@ const portfolioData = [
   {
     url: "./sulbi-min.png",
     title: "WordPress",
+    subTitle: "Movie api & Shoping Cart",
     tools: "JavaScript, React",
     website: "https://sulbi.link/",
     description:
@@ -34,6 +38,7 @@ const portfolioData = [
   {
     url: "./se.png",
     title: "React ",
+    subTitle: "Movie api & Shoping Cart",
     tools: "JavaScript, React",
     website: "https://dream-f5a51.web.app/",
     description:

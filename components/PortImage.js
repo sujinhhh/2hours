@@ -1,11 +1,17 @@
 import cn from "classnames";
+import PortDetail from "./portDetail";
 
-const PortImage = ({ url, active, rotationPosition, description }) => {
-  console.log(url);
-
+const PortImage = ({
+  url,
+  active,
+  rotationPosition,
+  description,
+  subTitle,
+}) => {
   return (
     <>
       <img
+        // ref={portImg}
         className={cn("port-image", { active })}
         src={url}
         style={{
@@ -15,10 +21,11 @@ const PortImage = ({ url, active, rotationPosition, description }) => {
             : `rotate(${rotationPosition}deg)`,
         }}
       ></img>
-      <div className={cn("port-description", { active })}>
-        <h1></h1>
-        <h2>{description}</h2>
-      </div>
+      <PortDetail
+        subTitle={subTitle}
+        active={active}
+        description={description}
+      />
     </>
   );
 };

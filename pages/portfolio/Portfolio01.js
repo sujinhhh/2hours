@@ -2,6 +2,8 @@ import Title from "../../components/PortTitle";
 import { useState } from "react";
 import { portfolioData } from "../../components/portfolioData";
 import PortImage from "../../components/PortImage";
+import { useRef } from "react";
+import { useEffect } from "react";
 
 const Portfolio01 = () => {
   const [rotationPosition, setRotation] = useState(
@@ -34,7 +36,7 @@ const Portfolio01 = () => {
           })}
         </div>
         <div className="image-container">
-          {portfolioData.map(({ url, title, description }, index) => {
+          {portfolioData.map(({ url, title, description, subTitle }, index) => {
             return (
               <PortImage
                 key={index}
@@ -43,6 +45,7 @@ const Portfolio01 = () => {
                 active={activeIndex === index}
                 rotationPosition={rotationPosition[index]}
                 description={description}
+                subTitle={subTitle}
               />
             );
           })}
