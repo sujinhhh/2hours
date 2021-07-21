@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
+import Link from "next/link";
 
-const Title = ({ title, index, setRotation, setIndex }) => {
+const Title = ({ website, title, index, setRotation, setIndex }) => {
   const titleRef = useRef(null);
   useEffect((e) => {
     titleRef.current.style.transform = "translateZ(150px)";
@@ -12,7 +13,11 @@ const Title = ({ title, index, setRotation, setIndex }) => {
       onMouseEnter={() => setRotation(index)}
       onMouseLeave={() => setIndex(-1)}
     >
-      <h1>{title}</h1>
+      <Link href={website}>
+        <a className="h1" target="_blank">
+          {title}
+        </a>
+      </Link>
     </div>
   );
 };

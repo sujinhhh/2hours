@@ -1,14 +1,5 @@
 const portfolioData = [
   {
-    url: "./movie.png",
-    title: "React JS ",
-    subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
-    website: "https://dream-f5a51.web.app/",
-    description:
-      "02 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
-  },
-  {
     url: "./shop.png",
     title: "JavaScript",
     subTitle: "Movie api & Shoping Cart",
@@ -43,6 +34,15 @@ const portfolioData = [
     website: "https://dream-f5a51.web.app/",
     description:
       "01 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+  },
+  {
+    url: "./movie.png",
+    title: "React JS ",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://dream-f5a51.web.app/",
+    description:
+      "02 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
 ];
 

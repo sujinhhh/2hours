@@ -44,23 +44,23 @@
   padding-top: 37.77vh;
   padding-bottom: 20vh;
   transform-style: preserve-3d;
-  transform: rotateY(2deg) rotateX(2deg) rotateZ(-10deg);
-  transform: rotateY(2deg) rotateX(2deg) rotateZ(-15deg);
+
+  transform: rotateY(2deg) rotateX(2deg) rotateZ(0deg);
   box-shadow: -4px 40px 80px -10px rgba(0, 0, 0, 0.4);
 
-  h1 {
+  .h1 {
     display: block;
     font-size: 10vw;
     line-height: 1.25;
     color: #bababa;
     opacity: 0.5;
     transition: color 0.1s ease-in-out;
-
     transition: transform 0.4s ease-in-out;
   }
   & :hover {
-    h1 {
+    .h1 {
       color: plum;
+
       opacity: 1;
       transform: translateX(50px);
     }

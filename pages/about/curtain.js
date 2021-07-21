@@ -1,9 +1,11 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 import { TweenMax, Power3 } from "gsap";
 import { useEffect } from "react";
 
 const Curtain = () => {
+  const [loading, setLoading] = useState(false);
+
   let flower1 = useRef(null);
   let flower2 = useRef(null);
   let flower3 = useRef(null);
@@ -19,6 +21,7 @@ const Curtain = () => {
       rotate: 20,
       ease: Power3.easeOut,
       rotate: 60,
+      delay: 0.5,
     });
     TweenMax.to(flower2, 2, {
       opacity: 1,
@@ -28,6 +31,7 @@ const Curtain = () => {
       ease: Power3.easeOut,
       rotate: -20,
       delay: 0.2,
+      delay: 0.5,
     });
     TweenMax.to(flower3, 2, {
       opacity: 0.5,
@@ -42,7 +46,7 @@ const Curtain = () => {
       opacity: 0.3,
       y: -20,
       ease: Power3.easeOut,
-      delay: 1,
+      delay: 0,
     });
   }, []);
 

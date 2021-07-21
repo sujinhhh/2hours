@@ -23,7 +23,7 @@ const Portfolio01 = () => {
     <div>
       <div className="main-container" id="main-container">
         <div className="title-container">
-          {portfolioData.map(({ title }, index) => {
+          {portfolioData.map(({ website, title }, index) => {
             return (
               <Title
                 key={index}
@@ -31,6 +31,7 @@ const Portfolio01 = () => {
                 index={index}
                 setRotation={handleSetRotation}
                 setIndex={setActiveIndex}
+                website={website}
               />
             );
           })}
