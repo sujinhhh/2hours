@@ -8,18 +8,23 @@ const CommonContainer = ({ position }) => {
   const imageData = [
     {
       mediaUrl:
-        "https://images.unsplash.com/photo-1601979689063-cb474664e70b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80",
-      title: "Ohahah",
+        "https://images.unsplash.com/photo-1555573970-48691be3d9d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fHNwcmluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      title: "Spring",
     },
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      title: "Ohahah",
+      title: "Summer",
     },
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1614481327033-68e5df399653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=951&q=80",
-      title: "Ohahah",
+      title: "Fall",
+    },
+    {
+      mediaUrl:
+        "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdpbnRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      title: "Winter",
     },
   ];
   const first = imageData[1];
