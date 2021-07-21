@@ -7,7 +7,7 @@ const Homepage = () => {
       <div className="hover-left" />
       <div className="hover-right" />
       <CommonContainer />
-      {/* <Hero /> */}
+      <Hero />
     </div>
   );
   å;
