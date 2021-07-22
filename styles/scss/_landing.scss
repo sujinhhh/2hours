@@ -1,5 +1,6 @@
 .home {
   cursor: pointer;
+  height: 100vh;
   position: relative;
   .hover-left {
     content: "";
@@ -85,16 +86,18 @@
 }
 
 .navigation {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  font-size: 1.5rem;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 1.1rem;
   color: $white;
   z-index: 6;
   cursor: pointer;
+
   &.left {
-    text-align: left;
+    // text-align: left;
     left: 1.25rem;
+
     &:hover {
       .container-left {
         clip-path: inset(0 0% 0% 100%);
@@ -109,8 +112,20 @@
     }
   }
   li {
-    color: $black;
-    text-align: right;
+    line-height: 50px;
+    right: -50%;
+    left: 50%;
+    text-align: center;
+    color: rgb(100, 104, 134);
+    background-color: rgba(245, 246, 247, 0.7);
+    width: 6rem;
+    border-radius: 3rem;
+    margin: 0.5rem;
+    text-shadow: 5px 3px 10px rgba(52, 52, 53, 0.5);
+    box-shadow: -5px -5px 20px $white, 5px 5px 20px #babecc;
+    &:hover {
+      box-shadow: -2px -2px 5px $white, 2px 2px 5px #babecc;
+    }
   }
 }
 .video-container {
@@ -131,8 +146,9 @@
   }
   video {
     object-fit: cover;
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    object-position: right top;
     position: absolute;
   }
   background-color: red($color: #000000);

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero__container">
         <div className="card">
           <div className="info">
-            <h1 className="title">해보지머</h1>
+            <h1 className="title">{"Let's Roll"}</h1>
           </div>
         </div>
       </div>

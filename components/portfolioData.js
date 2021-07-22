@@ -1,28 +1,48 @@
 const portfolioData = [
   {
-    url:
-      "https://images.unsplash.com/photo-1601979689063-cb474664e70b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80",
-    title: "Ohahah",
+    url: "./shop.png",
+    title: "JavaScript",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://sujinhhh.github.io/shop/",
+    description:
+      "03 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
   {
-    url:
-      "https://images.unsplash.com/photo-1567653418876-5bb0e566e1c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    title: "Ohahah",
+    url: "https://sujinhhh.github.io/img/fish.png",
+    title: "Node JS",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://node-modu.herokuapp.com/blogs",
+    description:
+      "04 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
   {
-    url:
-      "https://images.unsplash.com/photo-1614481327033-68e5df399653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=951&q=80",
-    title: "Ohahah",
+    url: "./sulbi-min.png",
+    title: "WordPress",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://sulbi.link/",
+    description:
+      "05 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
   {
-    url:
-      "https://images.unsplash.com/photo-1614481327033-68e5df399653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=951&q=80",
-    title: "Ohahah",
+    url: "./se.png",
+    title: "React ",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://dream-f5a51.web.app/",
+    description:
+      "01 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
   {
-    url:
-      "https://images.unsplash.com/photo-1614481327033-68e5df399653?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=951&q=80",
-    title: "Ohahah",
+    url: "./movie.png",
+    title: "React JS ",
+    subTitle: "Movie api & Shoping Cart",
+    tools: "JavaScript, React",
+    website: "https://dream-f5a51.web.app/",
+    description:
+      "02 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
   },
 ];
 

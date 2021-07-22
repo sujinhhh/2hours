@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Single+Day&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap");
 // Slick Slider
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
@@ -11,11 +11,13 @@
 // Font Variables
 $body-font: "Roboto", sans-serif;
 $Kor-font: "Single Day", cursive;
+$casual-font: cursive;
 
 // Font Size
-$font-sm: 0.875; // 14px
-$font-med: 1.125; // 18px
-$font-lg: 1.25rem;
+$font-xsm: 0.875; // 14px
+$font-sm: 1.125; // 18px
+$font-med: 1.25rem;
+$font-lg: 2.125rem;
 $font-xlg: 3.25rem;
 
 // 공간

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 import { TweenMax, Power3 } from "gsap";
 import { useEffect } from "react";
@@ -19,6 +19,7 @@ const Curtain = () => {
       rotate: 20,
       ease: Power3.easeOut,
       rotate: 60,
+      delay: 0.5,
     });
     TweenMax.to(flower2, 2, {
       opacity: 1,
@@ -28,6 +29,7 @@ const Curtain = () => {
       ease: Power3.easeOut,
       rotate: -20,
       delay: 0.2,
+      delay: 0.5,
     });
     TweenMax.to(flower3, 2, {
       opacity: 0.5,
@@ -40,16 +42,56 @@ const Curtain = () => {
     });
     TweenMax.to(text1, 1, {
       opacity: 0.3,
-      y: -20,
+      y: -60,
       ease: Power3.easeOut,
-      delay: 1,
+      delay: 0,
     });
   }, []);
 
   return (
     <div className="flower">
-      <div className="flower__text01">
-        <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
+      <div className="flower__text-container">
+        <div className="flower__text-container__title">
+          <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
+          <div className="about-me">
+            <h2> I am ...</h2>
+            <p>
+              A positive, enthusiastic Web Developer.
+              <br />I have 2 years experience as a Web Designer. Now I fell in
+              love with programming and I am so passionate about it.
+              <br /> I am a fast learner, great with teamwork and a hard worker.
+              I guarantee I will perform highly in this role, I will be very
+              useful to your company.
+            </p>
+          </div>
+          <div className="about-me skill green-title">
+            <h2> Skills ...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+          <div className="about-me like">
+            <h2> Things that I like ...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+          <div className="about-me contact green-title">
+            <h2> Contact...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+        </div>
       </div>
       <div className="flower__container">
         <img
