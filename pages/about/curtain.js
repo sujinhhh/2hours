@@ -4,8 +4,6 @@ import { TweenMax, Power3 } from "gsap";
 import { useEffect } from "react";
 
 const Curtain = () => {
-  const [loading, setLoading] = useState(false);
-
   let flower1 = useRef(null);
   let flower2 = useRef(null);
   let flower3 = useRef(null);
@@ -44,7 +42,7 @@ const Curtain = () => {
     });
     TweenMax.to(text1, 1, {
       opacity: 0.3,
-      y: -20,
+      y: -60,
       ease: Power3.easeOut,
       delay: 0,
     });
@@ -52,8 +50,48 @@ const Curtain = () => {
 
   return (
     <div className="flower">
-      <div className="flower__text01">
-        <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
+      <div className="flower__text-container">
+        <div className="flower__text-container__title">
+          <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
+          <div className="about-me">
+            <h2> I am ...</h2>
+            <p>
+              A positive, enthusiastic Web Developer.
+              <br />I have 2 years experience as a Web Designer. Now I fell in
+              love with programming and I am so passionate about it.
+              <br /> I am a fast learner, great with teamwork and a hard worker.
+              I guarantee I will perform highly in this role, I will be very
+              useful to your company.
+            </p>
+          </div>
+          <div className="about-me skill green-title">
+            <h2> Skills ...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+          <div className="about-me like">
+            <h2> Things that I like ...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+          <div className="about-me contact green-title">
+            <h2> Contact...</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
+              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
+              Illum veniam reprehenderit provident. Odit voluptate molestias
+              veniam eos voluptatibus harum corporis!
+            </p>
+          </div>
+        </div>
       </div>
       <div className="flower__container">
         <img

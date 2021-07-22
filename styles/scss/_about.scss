@@ -1,26 +1,73 @@
 .flower {
-  height: 100vh;
+  height: 160vh;
+  overflow: hidden;
+
   @include media("<=425px") {
     overflow-x: hidden;
   }
-  &__text01 {
-    @include flex-center(row);
-    width: 80vw;
-    height: 40vh;
-    // background-color: rgb(121, 68, 219);
 
-    h1 {
-      opacity: 0;
-      color: rgba(256, 256, 256, 1);
-      text-align: center;
-      font-weight: 800;
-      font-size: 6rem;
-      text-transform: uppercase;
-      z-index: 88;
-      text-shadow: 5px 3px 10px rgba(52, 52, 53, 0.5);
+  &__text-container {
+    &__title {
+      @include flex-center(row);
+      width: 80vw;
+      height: 40vh;
+
+      h1 {
+        opacity: 0;
+        color: rgba(256, 256, 256, 1);
+        text-align: center;
+        font-weight: 800;
+        font-size: 6rem;
+        text-transform: uppercase;
+        z-index: -9999;
+        text-shadow: 5px 3px 10px rgba(52, 52, 53, 0.5);
+        &:hover {
+          text-shadow: -2px -2px 5px $white, 2px 2px 5px rgba(52, 52, 53, 0.5);
+        }
+      }
+    }
+    .about-me {
+      position: absolute;
+      top: 35vh;
+      color: #acb2c0;
+      max-width: 40rem;
+      padding: 2.5rem;
+      box-shadow: -6px -5px 14px 3px #fff, 7px 7px 12px 2px #d0d8e3;
+      border-radius: 20px;
+      font-size: $font-sm;
+      z-index: 8;
+
+      h2 {
+        font-size: 2rem;
+        color: #f96a6d;
+        text-shadow: 0 0 6px rgba(224, 144, 163, 0.6);
+      }
+    }
+    .green-title {
+      box-shadow: inset -5px -5px 10px 4px #fff, inset -2px 6px 8px 6px #d0d8e3;
+      h2 {
+        font-size: 2rem;
+        color: #71c237;
+        text-shadow: 0 0 6px rgba(119, 190, 147, 0.6);
+      }
+    }
+    .skill {
+      top: 70vh;
+      max-width: 30rem;
+      transform: translateX(40%);
+    }
+    .like {
+      top: 110vh;
+    }
+    .contact {
+      top: 140vh;
+      transform: translateX(30%);
     }
   }
+
   &__container {
+    position: fixed;
+    height: 160vh;
     @include media("<=425px") {
       img:nth-child(1) {
         transform: scale(0);
