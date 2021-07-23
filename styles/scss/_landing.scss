@@ -94,6 +94,10 @@
   z-index: 6;
   cursor: pointer;
 
+  @include media("<=425px") {
+    font-size: 0.8rem;
+  }
+
   &.left {
     // text-align: left;
     left: 1.25rem;
@@ -125,6 +129,10 @@
     box-shadow: -5px -5px 20px $white, 5px 5px 20px #babecc;
     &:hover {
       box-shadow: -2px -2px 5px $white, 2px 2px 5px #babecc;
+    }
+    @include media("<=425px") {
+      width: 4rem;
+      height: 2rem;
     }
   }
 }

@@ -1,7 +1,9 @@
-import { useRef, useState } from "react";
-
+import { useRef, useEffect } from "react";
 import { TweenMax, Power3 } from "gsap";
-import { useEffect } from "react";
+
+import { FaReact, FaCss3Alt, FaHtml5, FaGithub } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Curtain = () => {
   let flower1 = useRef(null);
@@ -65,16 +67,31 @@ const Curtain = () => {
             </p>
           </div>
           <div className="about-me skill green-title">
-            <h2> Skills ...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <h2> I do ...</h2>
+
+            <div class="tagline">
+              <span class="change-container">
+                <span class="changing">
+                  <SiJavascript />
+                  Javascript
+                </span>
+                <span class="changing">
+                  <FaReact />
+                  react js
+                </span>
+                <span class="changing">
+                  <FaCss3Alt />
+                  css/sass
+                </span>
+                <span class="changing">
+                  <FaHtml5 />
+                  html
+                </span>
+              </span>
+            </div>
           </div>
           <div className="about-me like">
-            <h2> Things that I like ...</h2>
+            <h2> I like ...</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
               possimus adipisci dolor perspiciatis vero corrupti, tempore in.
@@ -83,13 +100,25 @@ const Curtain = () => {
             </p>
           </div>
           <div className="about-me contact green-title">
-            <h2> Contact...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <h2> Contact me ...</h2>
+            <div className="contact-container">
+              <div className="mail">
+                <span>
+                  <MdEmail />
+                </span>
+                <a href="mailto:sujinleeyo@gmail.com" target="_blank">
+                  Email : sujinleeyo@gmail.com
+                </a>
+              </div>
+              <div className="mail">
+                <span>
+                  <FaGithub />
+                </span>
+                <a href="https://github.com/sujinhhh" target="_blank">
+                  Github : https://github.com/sujinhhh
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

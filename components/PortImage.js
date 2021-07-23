@@ -7,6 +7,7 @@ const PortImage = ({
   rotationPosition,
   description,
   subTitle,
+  tools,
 }) => {
   return (
     <>
@@ -15,7 +16,6 @@ const PortImage = ({
         className={cn("port-image", { active })}
         src={url}
         style={{
-          width: "500px",
           transform: active
             ? `scale(1.1) rotate(${rotationPosition}deg)`
             : `rotate(${rotationPosition}deg)`,
@@ -25,6 +25,7 @@ const PortImage = ({
         subTitle={subTitle}
         active={active}
         description={description}
+        tools={tools}
       />
     </>
   );

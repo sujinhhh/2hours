@@ -6,3 +6,25 @@
     background-position: right;
   }
 }
+
+@keyframes revealNextWord {
+  0% {
+    opacity: 0.3;
+    height: 0;
+  }
+  10% {
+    opacity: 1;
+    height: 1.2em;
+  }
+  20% {
+    opacity: 1;
+    height: 1.2em;
+  }
+  28% {
+    opacity: 0;
+    height: 2em;
+  }
+  100% {
+    opacity: 0;
+  }
+}

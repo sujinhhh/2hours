@@ -1,6 +1,6 @@
 .main-container {
   padding: 0 6.597vw;
-  z-index: 99;
+  z-index: -9;
 }
 
 .image-container {
@@ -20,9 +20,8 @@
   transform-style: preserve-3d;
   position: absolute;
   height: auto;
-  width: 60vw;
+  width: 500px;
   transition: transform 0.1s ease-in-out;
-
   z-index: 98;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
     0 4px 8px rgba(0, 0, 0, 0.04), 0 8px 16px rgba(0, 0, 0, 0.04),
@@ -34,6 +33,10 @@
       translateX(35px) translateY(0px) translateZ(180px);
     filter: greyscale();
   }
+  @include media("<=425px") {
+    width: 60vw;
+    margin-top: 5rem;
+  }
 }
 
 // Title
@@ -44,10 +47,12 @@
   padding-top: 37.77vh;
   padding-bottom: 20vh;
   transform-style: preserve-3d;
-
   transform: rotateY(2deg) rotateX(2deg) rotateZ(0deg);
   box-shadow: -4px 40px 80px -10px rgba(0, 0, 0, 0.4);
-
+  @include media("<=425px") {
+    padding-top: 3vh;
+    padding-bottom: 40vh;
+  }
   .h1 {
     display: block;
     font-size: 10vw;
@@ -97,7 +102,14 @@
     color: rgb(250, 249, 249);
 
     @include flex-center(column);
+
+    @include media("<=425px") {
+      width: 50vw;
+      transform: translateX(0px);
+    }
+
     h1 {
+      font-weight: 700;
       margin: 0 auto;
       width: 100%;
       padding: 1rem;
@@ -107,7 +119,7 @@
     }
     h2 {
       margin: 0 auto;
-      padding: 1rem;
+      padding: 0.7rem;
       width: 100%;
       padding-right: 1rem;
       font-size: 1rem;
