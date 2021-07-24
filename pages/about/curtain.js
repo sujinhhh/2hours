@@ -69,7 +69,7 @@ const Curtain = () => {
           <div className="about-me skill green-title">
             <h2> I do ...</h2>
 
-            <div className="tagline">
+            {/* <div className="tagline">
               <span className="change-container">
                 <span className="changing">
                   <SiJavascript />
@@ -88,7 +88,7 @@ const Curtain = () => {
                   html
                 </span>
               </span>
-            </div>
+            </div> */}
           </div>
           <div className="about-me like">
             <h2> I like ...</h2>
