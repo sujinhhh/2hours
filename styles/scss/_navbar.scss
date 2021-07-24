@@ -1,7 +1,7 @@
 nav {
   @include flex-center(row);
   max-width: 50rem;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   position: relative;
   z-index: 99999;
 

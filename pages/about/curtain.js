@@ -69,21 +69,21 @@ const Curtain = () => {
           <div className="about-me skill green-title">
             <h2> I do ...</h2>
 
-            <div class="tagline">
-              <span class="change-container">
-                <span class="changing">
+            <div className="tagline">
+              <span className="change-container">
+                <span className="changing">
                   <SiJavascript />
                   Javascript
                 </span>
-                <span class="changing">
+                <span className="changing">
                   <FaReact />
                   react js
                 </span>
-                <span class="changing">
+                <span className="changing">
                   <FaCss3Alt />
                   css/sass
                 </span>
-                <span class="changing">
+                <span className="changing">
                   <FaHtml5 />
                   html
                 </span>
