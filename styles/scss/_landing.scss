@@ -98,6 +98,10 @@
     font-size: 0.8rem;
   }
 
+  @include media("<=tablet") {
+    font-size: 0.8rem;
+  }
+
   &.left {
     // text-align: left;
     left: 1.25rem;
@@ -117,9 +121,9 @@
   }
   li {
     line-height: 50px;
-    right: -50%;
-    left: 50%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(100, 104, 134);
     background-color: rgba(245, 246, 247, 0.7);
     width: 6rem;
@@ -131,6 +135,10 @@
       box-shadow: -2px -2px 5px $white, 2px 2px 5px #babecc;
     }
     @include media("<=425px") {
+      width: 4rem;
+      height: 2rem;
+    }
+    @include media("<=tablet") {
       width: 4rem;
       height: 2rem;
     }
