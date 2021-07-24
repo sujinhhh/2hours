@@ -106,7 +106,7 @@ const Curtain = () => {
                 <span>
                   <MdEmail />
                 </span>
-                <a href="mailto:sujinleeyo@gmail.com" target="_blank">
+                <a href="mailto:sujinleeyo@gmail.com">
                   Email : sujinleeyo@gmail.com
                 </a>
               </div>
@@ -114,7 +114,7 @@ const Curtain = () => {
                 <span>
                   <FaGithub />
                 </span>
-                <a href="https://github.com/sujinhhh" target="_blank">
+                <a href="https://github.com/sujinhhh">
                   Github : https://github.com/sujinhhh
                 </a>
               </div>
