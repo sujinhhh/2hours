@@ -15,22 +15,28 @@ nav {
     }
   }
   .menu-mobile {
-    position: absolute;
-    top: 4rem;
-    background-color: $white;
-    z-index: 999;
+    position: fixed;
+    top: 4.5rem;
+    z-index: 9999;
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+    clip-path: circle(100px at 50% 30%);
+    -webkit-clip-path: circle(800px at 50% -30%);
+    transition: all 1s ease-out;
     @include flex-center(column);
+
+    .active {
+      clip-path: circle(100px at 50% 30%);
+      -webkit-clip-path: circle(100px at 50% -30%);
+    }
+
     .logo {
       // 옆정렬
       // margin-right: auto;
       position: relative;
       @include media("<425px") {
         display: none;
-      }
-
-      img {
-        width: 100px;
-        cursor: pointer;
       }
     }
   }
@@ -39,13 +45,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 6rem;
     @include media("<=425px") {
       display: none;
     }
 
     .logo {
       // 옆정렬
-      // margin-right: auto;
+      margin-right: 1rem;
       position: relative;
 
       img {

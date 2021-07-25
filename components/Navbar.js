@@ -5,6 +5,18 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setSidebar(false);
+    } else {
+      setSidebar(true);
+    }
+  };
+
+  window.addEventListener("resize", showButton);
+  useEffect(() => {
+    showButton();
+  }, []);
   return (
     <nav>
       <div className="burger" onClick={() => setSidebar(!sidebar)}>
@@ -13,9 +25,13 @@ const Navbar = () => {
         </Link>
       </div>
       <div
-        className={sidebar ? "menu-mobile active" : "menu-desktop"}
+        className={sidebar ? "menu-mobile" : "menu-desktop"}
         onClick={() => setSidebar(false)}
       >
+        <div />
+        {/* <div className={sidebar ? "menu-mobile" : "menu-desktop"}>
+          <FaIcons.FaHome />
+        </div> */}
         <Link href="/">
           <a>Home</a>
         </Link>

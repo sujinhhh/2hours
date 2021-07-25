@@ -3,6 +3,9 @@
   @include flex-center(row);
   mask-image: radial-gradient(ellipse at top, #f6f9fc 0%, #090a0f 100%);
   position: relative;
+  @include media("<=425px") {
+    margin-top: -4rem;
+  }
 
   //  가져온거
 
@@ -18,6 +21,7 @@
     width: 100%;
     border-radius: 20px;
     padding: 0rem 3rem;
+
     // box-shadow: 0 10px 15px rgba(245, 248, 248, 0.7),
     //   0 0px 40px rgba(112, 112, 112, 0.658);
   }
@@ -27,22 +31,27 @@
   }
 
   .info h1 {
+    display: block;
     z-index: 999;
     font-family: $casual-font;
     text-align: center;
     color: $white;
-    font-size: 11rem;
+    font-size: 10rem;
     mix-blend-mode: multiply;
     text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
     @include media("<=425px") {
-      font-size: 8rem;
+      font-size: 5rem;
+    }
+    @include media("<=tablet") {
+      font-size: 6rem;
     }
   }
 
   .info p {
-    width: 40vw;
+    width: 80vw;
+    max-width: 700px;
     font-size: 1rem;
-    color: purple;
+    color: $white;
   }
   .menu {
     display: flex;

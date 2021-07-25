@@ -1,5 +1,6 @@
 .gallery {
   background-color: $black;
+  width: 100vw;
 
   &__container {
     width: 100%;
@@ -7,7 +8,7 @@
     @include media("<=425px") {
       padding-top: 5vh;
       height: 500px;
-      overflow-y: hidden;
+      overflow: hidden;
     }
   }
 
@@ -32,6 +33,7 @@
     text-align: right;
     color: $white;
     margin-bottom: 2rem;
+    padding-right: 2rem;
   }
   a {
     cursor: pointer;

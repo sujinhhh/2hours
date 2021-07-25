@@ -91,12 +91,7 @@ const Curtain = () => {
           </div>
           <div className="about-me like">
             <h2> I like ...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <p>Dogs, Coffee, Snow, Video Editing,</p>
           </div>
           <div className="about-me contact green-title">
             <h2> Contact me ...</h2>
