@@ -13,8 +13,8 @@ const Navbar = () => {
     }
   };
 
-  window.addEventListener("resize", showButton);
   useEffect(() => {
+    window.addEventListener("resize", showButton);
     showButton();
   }, []);
   return (
@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div
-        className={sidebar ? "menu-mobile" : "menu-desktop"}
+        className={sidebar ? "menu-mobile active" : "menu-desktop"}
         onClick={() => setSidebar(false)}
       >
         <div />
