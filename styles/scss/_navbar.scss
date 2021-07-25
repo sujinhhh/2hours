@@ -15,16 +15,18 @@ nav {
     }
   }
   .menu-mobile {
-    position: fixed;
+    position: absolute;
     top: 4.5rem;
     z-index: 9999;
-    background-color: black;
+
     height: 50vh;
     width: 100%;
-    clip-path: circle(100px at 50% 30%);
-    -webkit-clip-path: circle(800px at 50% -30%);
-
-    @include flex-center(column);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    transition: all 500ms ease-out;
     a {
       color: $white;
     }
@@ -37,6 +39,11 @@ nav {
         display: none;
       }
     }
+  }
+  .active {
+    background-color: black;
+    clip-path: circle(250px at 50% -20%);
+    -webkit-clip-path: circle(250px at 50% -20%);
   }
 
   .menu-desktop {
