@@ -54,8 +54,17 @@ const Curtain = () => {
     <div className="flower">
       <div className="flower__text-container">
         <div className="flower__text-container__title">
+          <div className="mypic-container">
+            <div className="mypic">
+              <div className="about_name"></div>
+              <div className="Work-card">
+                <img className="about_profile" src="./profile.png" alt="" />
+              </div>
+            </div>
+          </div>
           <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
-          <div className="about-me">
+
+          <div className="about-me me">
             <h2> I AM ...</h2>
             <p>
               A positive, enthusiastic Web Developer.
@@ -81,7 +90,7 @@ const Curtain = () => {
                 <span className="changing">
                   <img src="./css.png" alt="css" />
                   <img src="./html.png" alt="html" />
-                  HTML/CSS/SASS/
+                  HTML/CSS/SASS
                 </span>
                 <span className="changing">
                   <img src="./photoshop.png" alt="photoshop" />
