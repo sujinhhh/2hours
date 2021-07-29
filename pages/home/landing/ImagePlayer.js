@@ -1,6 +1,4 @@
 const ImagePlayer = ({ src }) => {
-  console.log(src);
-
   return (
     <div
       className="image-player"

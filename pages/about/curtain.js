@@ -1,7 +1,9 @@
-import { useRef, useState } from "react";
-
+import { useRef, useEffect } from "react";
 import { TweenMax, Power3 } from "gsap";
-import { useEffect } from "react";
+
+import { FaReact, FaCss3Alt, FaHtml5, FaGithub } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Curtain = () => {
   let flower1 = useRef(null);
@@ -54,7 +56,7 @@ const Curtain = () => {
         <div className="flower__text-container__title">
           <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
           <div className="about-me">
-            <h2> I am ...</h2>
+            <h2> I AM ...</h2>
             <p>
               A positive, enthusiastic Web Developer.
               <br />I have 2 years experience as a Web Designer. Now I fell in
@@ -65,31 +67,53 @@ const Curtain = () => {
             </p>
           </div>
           <div className="about-me skill green-title">
-            <h2> Skills ...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <h2> I DO ...</h2>
+            <div className="tagline">
+              <span className="change-container">
+                <span className="changing">
+                  <img src="./js.png" alt="js" />
+                  Javascript
+                </span>
+                <span className="changing">
+                  <img src="./logo192.png" alt="logo192" />
+                  react js
+                </span>
+                <span className="changing">
+                  <img src="./css.png" alt="css" />
+                  <img src="./html.png" alt="html" />
+                  HTML/CSS/SASS/
+                </span>
+                <span className="changing">
+                  <img src="./photoshop.png" alt="photoshop" />
+                  Photoshop
+                </span>
+              </span>
+            </div>
           </div>
           <div className="about-me like">
-            <h2> Things that I like ...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <h2> I LIKE ...</h2>
+            <p>Dogs, Coffee, Snow, Video Editing,</p>
           </div>
           <div className="about-me contact green-title">
-            <h2> Contact...</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo
-              possimus adipisci dolor perspiciatis vero corrupti, tempore in.
-              Illum veniam reprehenderit provident. Odit voluptate molestias
-              veniam eos voluptatibus harum corporis!
-            </p>
+            <h2> Contact Me ...</h2>
+            <div className="contact-container">
+              <div className="mail">
+                <span>
+                  <MdEmail />
+                </span>
+                <a href="mailto:sujinleeyo@gmail.com">
+                  Email : sujinleeyo@gmail.com
+                </a>
+              </div>
+              <div className="mail">
+                <span>
+                  <FaGithub />
+                </span>
+                <a href="https://github.com/sujinhhh">
+                  Github : https://github.com/sujinhhh
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

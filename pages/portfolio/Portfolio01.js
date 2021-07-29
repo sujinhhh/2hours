@@ -37,19 +37,22 @@ const Portfolio01 = () => {
           })}
         </div>
         <div className="image-container">
-          {portfolioData.map(({ url, title, description, subTitle }, index) => {
-            return (
-              <PortImage
-                key={index}
-                url={url}
-                title={title}
-                active={activeIndex === index}
-                rotationPosition={rotationPosition[index]}
-                description={description}
-                subTitle={subTitle}
-              />
-            );
-          })}
+          {portfolioData.map(
+            ({ url, title, description, subTitle, tools }, index) => {
+              return (
+                <PortImage
+                  key={index}
+                  url={url}
+                  title={title}
+                  active={activeIndex === index}
+                  rotationPosition={rotationPosition[index]}
+                  description={description}
+                  subTitle={subTitle}
+                  tools={tools}
+                />
+              );
+            }
+          )}
         </div>
       </div>
     </div>

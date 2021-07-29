@@ -1,48 +1,46 @@
 const portfolioData = [
   {
-    url: "./shop.png",
-    title: "JavaScript",
-    subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
-    website: "https://sujinhhh.github.io/shop/",
-    description:
-      "03 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+    url: "./se.png",
+    title: "React ",
+    subTitle: "Kids Online English School",
+    tools: "React Redux, Firebase, Materialize Css",
+    website: "https://seramschool.web.app/",
+    description: " Writing Deleting Board, Login, Vidoes ",
   },
   {
-    url: "https://sujinhhh.github.io/img/fish.png",
-    title: "Node JS",
-    subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
-    website: "https://node-modu.herokuapp.com/blogs",
-    description:
-      "04 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+    url: "./shop.png",
+    title: "JavaScript",
+    subTitle: "Online Order Page",
+    tools: "JavaScript, CSS",
+    website: "https://sujinhhh.github.io/shop/",
+    description: "Shopping cart, Add items, Delete items",
   },
+
   {
     url: "./sulbi-min.png",
     title: "WordPress",
-    subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
+    subTitle: "Plumbming Company",
+    tools: "WordPress",
     website: "https://sulbi.link/",
-    description:
-      "05 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+    description: "Blog, Write, Delete, Edit",
   },
+
   {
-    url: "./se.png",
-    title: "React ",
-    subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
-    website: "https://dream-f5a51.web.app/",
+    url: "https://sujinhhh.github.io/img/fish.png",
+    title: "Node JS",
+    subTitle: "My Blog",
+    tools: "Node JS, EJS, CSS",
+    website: "https://node-modu.herokuapp.com/blogs",
     description:
-      "01 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+      "Sorry it takes a little while to load page first time( Heroku free service)",
   },
   {
     url: "./movie.png",
     title: "React JS ",
     subTitle: "Movie api & Shoping Cart",
-    tools: "JavaScript, React",
+    tools: "React, SASS, Axios, Firebase",
     website: "https://dream-f5a51.web.app/",
-    description:
-      "02 used Barzillai to provide for King David. David and the people were “hungry and tired and thirsty” while fleeing from David’s son, Absalom. Along with others, Barzillai, an old man at this point, risked his life to provide for David and those with him.",
+    description: "Shopping Cart, Login page,",
   },
 ];
 
