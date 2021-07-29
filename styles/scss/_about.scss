@@ -92,8 +92,9 @@
     }
     .skill {
       top: 70vh;
-      max-width: 35rem;
-      transform: translateX(40%);
+      max-width: 45rem;
+      transform: translateX(20%);
+      box-shadow: -6px -5px 14px 3px #fff, 7px 7px 12px 2px #d0d8e3;
       // Mobile ======================================================
       @include media("<=425px") {
         top: 0;
@@ -199,6 +200,10 @@
   height: 0;
   opacity: 0;
   text-rendering: optimizeLegibility;
+  align-items: center;
+  img {
+    width: 60px;
+  }
 }
 
 .changing:nth-child(1) {

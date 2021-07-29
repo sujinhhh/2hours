@@ -56,7 +56,7 @@ const Curtain = () => {
         <div className="flower__text-container__title">
           <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
           <div className="about-me">
-            <h2> I am ...</h2>
+            <h2> I AM ...</h2>
             <p>
               A positive, enthusiastic Web Developer.
               <br />I have 2 years experience as a Web Designer. Now I fell in
@@ -67,34 +67,35 @@ const Curtain = () => {
             </p>
           </div>
           <div className="about-me skill green-title">
-            <h2> I do ...</h2>
+            <h2> I DO ...</h2>
             <div className="tagline">
               <span className="change-container">
                 <span className="changing">
-                  <SiJavascript />
+                  <img src="./js.png" alt="js" />
                   Javascript
                 </span>
                 <span className="changing">
-                  <FaReact />
+                  <img src="./logo192.png" alt="logo192" />
                   react js
                 </span>
                 <span className="changing">
-                  <FaCss3Alt />
-                  css/sass
+                  <img src="./css.png" alt="css" />
+                  <img src="./html.png" alt="html" />
+                  HTML/CSS/SASS/
                 </span>
                 <span className="changing">
-                  <FaHtml5 />
-                  html
+                  <img src="./photoshop.png" alt="photoshop" />
+                  Photoshop
                 </span>
               </span>
             </div>
           </div>
           <div className="about-me like">
-            <h2> I like ...</h2>
+            <h2> I LIKE ...</h2>
             <p>Dogs, Coffee, Snow, Video Editing,</p>
           </div>
           <div className="about-me contact green-title">
-            <h2> Contact me ...</h2>
+            <h2> Contact Me ...</h2>
             <div className="contact-container">
               <div className="mail">
                 <span>
