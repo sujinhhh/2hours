@@ -54,6 +54,7 @@ const Curtain = () => {
     <div className="flower">
       <div className="flower__text-container">
         <div className="flower__text-container__title">
+          <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
           <div className="mypic-container">
             <div className="mypic">
               <div className="about_name"></div>
@@ -62,8 +63,6 @@ const Curtain = () => {
               </div>
             </div>
           </div>
-          <h1 ref={(el) => (text1 = el)}>Sujin lee</h1>
-
           <div className="about-me me">
             <h2> I AM ...</h2>
             <p>
@@ -75,6 +74,7 @@ const Curtain = () => {
               useful to your company.
             </p>
           </div>
+
           <div className="about-me skill green-title">
             <h2> I DO ...</h2>
             <div className="tagline">
