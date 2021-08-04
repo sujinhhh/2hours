@@ -29,7 +29,7 @@ const portfolioData = [
     title: "Node JS",
     subTitle: "My Blog",
     tools: "Node JS, EJS, CSS",
-    website: "https://node-modu.herokuapp.com/blogs",
+    website: "https://node-modu.herokuapp.com/",
     description:
       "Sorry it takes a little while to load page first time( Heroku free service)",
   },
