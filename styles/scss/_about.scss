@@ -36,6 +36,7 @@
         text-transform: uppercase;
         z-index: 1;
         text-shadow: 5px 3px 10px rgba(52, 52, 53, 0.5);
+
         &:hover {
           text-shadow: -2px -2px 5px $white, 2px 2px 5px rgba(52, 52, 53, 0.5);
         }
@@ -79,6 +80,31 @@
         font-size: 2rem;
         color: #f96a6d;
         text-shadow: 0 0 6px rgba(224, 144, 163, 0.6);
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          top: -20px;
+          display: inline-block;
+          width: 330px;
+          height: 330px;
+          background-image: url("/name.png");
+          background-size: 150px;
+          background-repeat: no-repeat;
+          transition: all 0.5s ease-in-out;
+          opacity: 0;
+        }
+        &:hover::after {
+          opacity: 1;
+        }
+
+        // &[data-tool-tip] {
+        //   position: relative;
+        // }
+        // &[data-tool-tip]::after {
+        //   content: attr(data-add-me);
+        //   color: black;
+        // }
         @include media("<=425px") {
           font-size: 1.5rem;
         }
