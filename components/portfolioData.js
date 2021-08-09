@@ -25,6 +25,14 @@ const portfolioData = [
     description: "Blog, Write, Delete, Edit",
   },
   {
+    url: "./landing.png",
+    title: "HTML / SCSS",
+    subTitle: "Kuto Company landing Page",
+    tools: "HTML,SCSS, JS",
+    website: "https://eager-payne-1994bb.netlify.app/",
+    description: "Responsive Webpage Study",
+  },
+  {
     url: "https://sujinhhh.github.io/img/fish.png",
     title: "Node JS",
     subTitle: "My Blog",
