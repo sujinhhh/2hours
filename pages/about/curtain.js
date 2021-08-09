@@ -64,7 +64,7 @@ const Curtain = () => {
             </div>
           </div>
           <div className="about-me me">
-            <h2> I AM ...</h2>
+            <h2 data-add-me="hahah"> I AM ...</h2>
             <p>
               A positive, enthusiastic Web Developer.
               <br />I have 2 years experience as a Web Designer. Now I fell in
