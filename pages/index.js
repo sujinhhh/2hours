@@ -7,13 +7,11 @@ export default function Home() {
       <Head>
         <title>Home</title>
         <meta name="keywords" content="the best programmer" />
-    <meta property="og:url"                content="http://gocoder.tistory.com" />
-<meta property="og:type"               content="website" />
-<meta property="og:title"              content="고코더의 IT Express" />
-<meta property="og:description"        content="모든 IT 정보를 " />
-     <meta
-          property="og:image"
-          content="https://sujinhhh.github.io/img/main.png"
+    <meta property="og:url"                content="https://2hours.vercel.app/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="web developer" />
+     <meta property="og:description"        content="web developer " />
+     <meta property="og:image"    content="https://sujinhhh.github.io/img/main.png"
         />
       </Head>
       <div>
