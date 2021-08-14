@@ -6,13 +6,11 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
-        <meta name="keywords" content="the best programmer" />
-    <meta property="og:url"                content="https://2hours.vercel.app/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="web developer" />
-     <meta property="og:description"        content="web developer " />
-     <meta property="og:image"    content="https://sujinhhh.github.io/img/main.png"
-        />
+        <meta property="og:title" content="Home"/>
+<meta property="og:description" content="Welcome to my blog!"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://phiilu.com/"/>
+<meta property="og:image" content="https://phiilu.com/images/og/840e64ab9334b9d5d555c85e0d073179.png"/>
       </Head>
       <div>
         <HomePage />
