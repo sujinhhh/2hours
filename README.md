@@ -1,6 +1,6 @@
 
 
-## Portfolio Webpage
+# Portfolio Webpage
 
-# Using tech: Next JS, SCSS, GSAP for animation, 
+### Using tech: Next JS, SCSS, GSAP for animation, 
 
