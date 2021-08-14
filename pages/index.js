@@ -6,11 +6,13 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+
         <meta name="keywords" content="the best programmer" />
         <meta
           property="og:image"
           content="https://sujinhhh.github.io/img/main.png"
         />
+
       </Head>
       <div>
         <HomePage />
