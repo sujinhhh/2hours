@@ -8,11 +8,6 @@ const Hero = () => {
         <div className="card">
           <div className="info">
             <h1 className="title">{"Let's Roll !"}</h1>
-            <img
-              src="//unsplash.it/500/500"
-              alt=""
-              style={{ display: "none" }}
-            />
             <p>
               “Software Developer” – An organism that turns caffeine into
               software...
