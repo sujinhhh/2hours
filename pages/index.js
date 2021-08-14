@@ -10,7 +10,9 @@ export default function Home() {
 <meta property="og:description" content="Welcome to my blog!"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://phiilu.com/"/>
-<meta property="og:image" content="https://phiilu.com/images/og/840e64ab9334b9d5d555c85e0d073179.png"/>
+<meta property="og:image" content="https://phiilu.com/images/og/840e64ab9334b9d5d555c85e0d073179.png" key="ogimage" / >
+       <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       </Head>
       <div>
         <HomePage />
