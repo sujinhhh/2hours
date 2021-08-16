@@ -4,7 +4,7 @@ const portfolioData = [
     title: "React JS ",
     subTitle: "Movie api & Shoping Cart",
     tools:
-      "React, ContextAPI(State management for checkout page) SASS(Styling), Axios(Fetching Data), Firebase(Auth,deployment), Firestore(Uploading blog images)",
+      "React,  ContextAPI (State management for checkout page)  SASS (Styling), Axios (Fetching Data),  Firebase(Auth,deployment),  Firestore (Uploading blog images)",
     website: "https://dream-f5a51.web.app/",
     description: "Shopping Cart, Login page,",
   },
