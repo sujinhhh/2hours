@@ -7,14 +7,15 @@ const CommonContainer = ({ position }) => {
   const imageData = [
     {
       mediaUrl:
-        "https://images.unsplash.com/photo-1505340843-6554dea802df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg2OHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
-      title: "SMILE",
-    },
-    {
-      mediaUrl:
         "https://images.unsplash.com/photo-1616745036869-7c11a4e7450c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg0NHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
       title: "JS/REACT",
     },
+    {
+      mediaUrl:
+        "https://images.unsplash.com/photo-1505340843-6554dea802df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg2OHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+      title: "SMILE",
+    },
+
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1563891217861-7924b471afb3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc5NXx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
