@@ -17,8 +17,18 @@
       top: 50%;
       right: 0;
       z-index: 3;
-      color: black;
-      font-size: 3vw;
+      color: white;
+      font-size: 4vw;
+    }
+    h2 {
+      display: inline-block;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      right: 0;
+      z-index: 3;
+      color: #37474f;
+      font-size: 60%;
     }
   }
   .hero-collage {
@@ -118,7 +128,7 @@
     max-width: 1304px;
     width: calc(100%-48px);
     position: relative;
-    color: black;
+    color: white;
     .hero-usedBy-copy {
       margin-bottom: 0;
       padding-left: 52px;

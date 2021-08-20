@@ -14,7 +14,7 @@ const HeroHeader = () => {
 
   return (
     <div className="hero-text-section">
-      <h1 id="hero-text">Everything you can imagine is real.</h1>
+      <h2 id="hero-text">Everything you can imagine is real.</h2>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const imgSrc =
   "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80";
@@ -11,31 +12,31 @@ const HeroPhoneBlock = () => {
 
   useEffect(() => {
     function intro() {
+      // gsap.registerPlugin(ScrollTrigger);
       const tl = gsap.timeline();
       tl.fromTo(phoneRef.current, { y: 200 }, { y: 0, duration: 1 });
       return tl;
     }
     function stopTrigger() {
-      gsap.registerPlugin();
       const tl = gsap.timeline({
         delay: 1,
         scrollTrigger: {
           trigger: phoneRef.current,
           start: "top top",
-          end: "+=1000",
+          end: "+=1300",
           pin: true,
           scrub: true,
         },
       });
-      // tl.to(phoneRef.current, { scale: 1.2 }, "+=0.2");
-      // tl.to(
-      //   ".hero-container",
-      //   {
-      //     backgroundColor: "black",
-      //     duration: 0.25,
-      //   },
-      //   "-=0.5"
-      // );
+      tl.to(phoneRef.current, { scale: 1.1 }, "+=0.2");
+      tl.to(
+        ".hero-container",
+        {
+          backgroundColor: "black",
+          duration: 0.25,
+        },
+        "-=0.5"
+      );
       return tl;
     }
     const master = gsap.timeline();
