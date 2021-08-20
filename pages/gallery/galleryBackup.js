@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const getStaticProps = async () => {
   const res = await fetch(
@@ -12,7 +12,14 @@ export const getStaticProps = async () => {
 };
 
 const Gallery = ({ gallery }) => {
+  const [isLoader, setIsLoader] = useState(false);
   const [activeImage, setActiveImage] = useState(1);
+
+  useEffect(() => {
+    getStaticProps().then((result) => {
+      console.log(result);
+    });
+  }, []);
 
   return (
     <div className="gallery">

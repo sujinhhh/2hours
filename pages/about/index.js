@@ -1,10 +1,15 @@
 import Curtain from "./curtain";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.3 }}
+    >
       <Curtain />
-    </div>
+    </motion.div>
   );
 };
 
