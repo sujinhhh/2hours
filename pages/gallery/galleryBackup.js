@@ -1,18 +1,25 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const getStaticProps = async () => {
   const res = await fetch(
     "https://api.artic.edu/api/v1/artworks?page=1&limit=100&fields=id,title,image_id"
   );
   const data = await res.json();
-  return {
-    props: { gallery: data.data },
-  };
+  // return {
+  //   props: { gallery: data.data },
+  // };
 };
 
 const Gallery = ({ gallery }) => {
+  const [isLoader, setIsLoader] = useState(false);
   const [activeImage, setActiveImage] = useState(1);
+
+  useEffect(() => {
+    getStaticProps().then((result) => {
+      console.log(result);
+    });
+  }, []);
 
   return (
     <div className="gallery">

@@ -2,29 +2,30 @@ import { useState } from "react";
 import cn from "classnames";
 import ImagePlayer from "./ImagePlayer";
 import VideoPlayer from "./VideoPlayer";
+import { motion } from "framer-motion";
 
 const CommonContainer = ({ position }) => {
   const imageData = [
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1616745036869-7c11a4e7450c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg0NHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
-      title: "JS/REACT",
+      title: "REACT",
     },
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1505340843-6554dea802df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg2OHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
-      title: "SMILE",
+      title: "JavaScript",
     },
 
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1563891217861-7924b471afb3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTc5NXx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
-      title: "HAPPY",
+      title: "CSS",
     },
     {
       mediaUrl:
         "https://images.unsplash.com/photo-1493612216891-65cbf3b5c420?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjI3fHxwYXN0ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
-      title: "CSS/HTML",
+      title: "HTML",
     },
   ];
   const first = imageData[1];
@@ -35,16 +36,19 @@ const CommonContainer = ({ position }) => {
       <div>
         <ul className={`navigation ${position}`}>
           {imageData.map((media, index) => (
-            <li
+            <motion.li
               key={index}
               className={cn({
                 active: media.mediaUrl === activeMedia.mediaUrl,
               })}
               onMouseEnter={() => setActiveMedia(media)}
               onMouseLeave={() => {}}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
             >
               {media.title}
-            </li>
+            </motion.li>
           ))}
         </ul>
       </div>

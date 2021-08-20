@@ -6,7 +6,6 @@ import gsap from "gsap";
 // import SplitText from "../../utils/split.min.js";
 
 export const getStaticProps = async () => {
-  // const [loading, setLoading] = useState(false);
   const res = await fetch(
     "https://api.artic.edu/api/v1/artworks?page=1&limit=100&fields=id,title,image_id"
   );

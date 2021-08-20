@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
-
   const windowResize = () => {
     if (window.innerWidth >= 425) {
       setSidebar(false);
@@ -31,10 +30,10 @@ const Navbar = () => {
           <FaIcons.FaHome />
         </div> */}
         <Link href="/">
-          <a>Home</a>
+          <a className="navItem">Home</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a className="navItem">About</a>
         </Link>
         <Link href="/">
           <div className="logo">
@@ -42,10 +41,10 @@ const Navbar = () => {
           </div>
         </Link>
         <Link href="/portfolio">
-          <a>Portfolio</a>
+          <a className="navItem">Portfolio</a>
         </Link>
         <Link href="/gallery">
-          <a>Art Gallery</a>
+          <a className="navItem">Art Gallery</a>
         </Link>
       </div>
     </nav>
