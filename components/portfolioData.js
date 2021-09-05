@@ -23,7 +23,7 @@ const portfolioData = [
     title: "WordPress",
     subTitle: "Plumbming Company",
     tools: "WordPress, Hostinger(hosting,deployment)",
-    website: "https://sulbi.link/",
+    website: "http://sulbi.link/",
     description: "Blog, Write, Delete, Edit",
   },
   {
