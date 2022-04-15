@@ -28,3 +28,19 @@
     opacity: 0;
   }
 }
+
+// menu animation
+@keyframes showMenu {
+  0% {
+    transform: scaleY(0);
+    opacity: 0;
+  }
+  80% {
+    transform: scaleY(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

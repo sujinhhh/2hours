@@ -1,7 +1,7 @@
 const portfolioData = [
   {
     url: "./movie.png",
-    title: "React JS ",
+    title: "Movie & Shopping",
     subTitle: "Movie api & Shoping Cart",
     tools:
       "React,  ContextAPI (State management for checkout page)  SASS (Styling), Axios (Fetching Data),  Firebase(Auth,deployment),  Firestore (Uploading blog images)",
@@ -10,7 +10,7 @@ const portfolioData = [
   },
   {
     url: "./se.png",
-    title: "React JS",
+    title: "Online learning",
     subTitle: "Kids Online English School",
     tools:
       "React, Redux(Login,out State management), Firebase(deployment), Materialize Css(Styling)",
@@ -18,38 +18,47 @@ const portfolioData = [
     description: " Writing Deleting Board, Login, Vidoes ",
   },
 
-  {
-    url: "./sulbi-min.png",
-    title: "WordPress",
-    subTitle: "Plumbming Company",
-    tools: "WordPress, Hostinger(hosting,deployment)",
-    website: "http://handyman.dothome.co.kr/",
-    description: "Blog, Write, Delete, Edit",
-  },
-  {
-    url: "./landing.png",
-    title: "HTML / SCSS",
-    subTitle: "Kuto Company landing Page",
-    tools: "HTML,SCSS(Styling),JS, Netlify(deployment)",
-    website: "https://eager-payne-1994bb.netlify.app/",
-    description: "Responsive Webpage Study",
-  },
-  {
-    url: "https://sujinhhh.github.io/img/fish.png",
-    title: "Node JS",
-    subTitle: "My Blog",
-    tools: "Node JS, EJS, CSS, Heroku(deployment)",
-    website: "https://node-modu.herokuapp.com/",
-    description:
-      "Sorry it takes a little while to load page first time( Heroku free service)",
-  },
+  // {
+  //   url: "./sulbi-min.png",
+  //   title: "WordPress",
+  //   subTitle: "Plumbming Company",
+  //   tools: "WordPress, Hostinger(hosting,deployment)",
+  //   website: "http://handyman.dothome.co.kr/",
+  //   description: "Blog, Write, Delete, Edit",
+  // },
+  // {
+  //   url: "./landing.png",
+  //   title: "HTML / SCSS",
+  //   subTitle: "Kuto Company landing Page",
+  //   tools: "HTML,SCSS(Styling),JS, Netlify(deployment)",
+  //   website: "https://eager-payne-1994bb.netlify.app/",
+  //   description: "Responsive Webpage Study",
+  // },
+  // {
+  //   url: "https://sujinhhh.github.io/img/fish.png",
+  //   title: "Node JS",
+  //   subTitle: "My Blog",
+  //   tools: "Node JS, EJS, CSS, Heroku(deployment)",
+  //   website: "https://node-modu.herokuapp.com/",
+  //   description:
+  //     "Sorry it takes a little while to load page first time( Heroku free service)",
+  // },
   {
     url: "./shop.png",
-    title: "JavaScript",
+    title: "Online shopping",
     subTitle: "Online Order Page",
     tools: "JavaScript, CSS(Styling), Firebase(deployment)",
     website: "https://sujinhhh.github.io/shop/",
     description: "Shopping cart, Add items, Delete items",
+  },
+  {
+    url: "./landing.png",
+    title: "Company Blog",
+    subTitle: "My Blog",
+    tools: "Photoshop, Figma",
+    website: "https://blog.naver.com/ccclalala",
+    description:
+      "Designing and maintaining Handyman company Blog in Korea",
   },
 ];
 

@@ -44,7 +44,7 @@
 .title-container {
   position: relative;
   display: block;
-  padding-top: 37.77vh;
+  padding-top: 20vh;
   padding-bottom: 20vh;
   transform-style: preserve-3d;
   transform: rotateY(2deg) rotateX(2deg) rotateZ(0deg);
@@ -55,8 +55,8 @@
   }
   .h1 {
     display: block;
-    font-size: 10vw;
-    line-height: 1.25;
+    font-size: 7vw;
+    line-height: 1.75;
     color: #bababa;
     opacity: 0.5;
     transition: color 0.1s ease-in-out;
