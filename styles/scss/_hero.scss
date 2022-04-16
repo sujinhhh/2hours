@@ -65,7 +65,7 @@
     font-size: 1.125rem;
     color: $white;
     border-radius: 1em;
-    box-shadow: 3px 3px 19px rgba($color: #474649, $alpha: 0.5);
+    box-shadow: 3px 3px 19px rgba($color: #f9f8fa, $alpha: 0.5);
     @include media("<=425px") {
       &:first-of-type {
         color: rebeccapurple;
