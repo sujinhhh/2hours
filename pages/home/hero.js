@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero__container">
         <div className="card">
           <div className="info">
-            <h1 className="title">{"Let's Roll !"}</h1>
+            <h1 className="title">{"Let's Roll!"}</h1>
             <p className="sub-contents-title">
               “Software Developer” – An organism that turns caffeine into
               software...
