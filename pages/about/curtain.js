@@ -66,7 +66,7 @@ const Curtain = () => {
           <div className="about-me me">
             <h2 data-add-me="hahah"> I AM ...</h2>
             <p>
-              A positive, enthusiastic Web Designer.
+              A positive, enthusiastic Front End Developer.
               <br />I have 2 years experience as a Web Designer and I fall in
               love with making something awesome.
               <br /> I am a fast learner, great with teamwork and a hard worker.
