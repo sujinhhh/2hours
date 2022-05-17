@@ -55,8 +55,9 @@
   }
   .h1 {
     display: block;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 1.75;
+
     color: #bababa;
     opacity: 0.5;
     transition: color 0.1s ease-in-out;
@@ -64,8 +65,9 @@
   }
   & :hover {
     .h1 {
-      color: plum;
-
+      color: rgb(171, 65, 237);
+      font-weight: 500;
+      text-shadow: 5px 5px 8px rgb(182, 83, 196, 0.8);
       opacity: 1;
       transform: translateX(50px);
     }

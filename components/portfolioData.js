@@ -1,16 +1,16 @@
 const portfolioData = [
   {
     url: "./movie.png",
-    title: "Movie & Shopping",
+    title: "React / Movie & Shop",
     subTitle: "Movie api & Shoping Cart",
     tools:
-      "React,  ContextAPI (State management for checkout page)  SASS (Styling), Axios (Fetching Data),  Firebase(Auth,deployment),  Firestore (Uploading blog images)",
+      "React,  ContextAPI (State management for checkout page)  SCSS (Styling), Axios (Fetching Data),  Firebase(Auth,deployment),  Firestore (Uploading blog images)",
     website: "https://dream-f5a51.web.app/",
     description: "Shopping Cart, Login page,",
   },
   {
     url: "./se.png",
-    title: "Online learning",
+    title: "React / Online School",
     subTitle: "Kids Online English School",
     tools:
       "React, Redux(Login,out State management), Firebase(deployment), Materialize Css(Styling)",
@@ -45,7 +45,7 @@ const portfolioData = [
   // },
   {
     url: "./shop.png",
-    title: "Online shopping",
+    title: "JS / Online food shop",
     subTitle: "Online Order Page",
     tools: "JavaScript, CSS(Styling), Firebase(deployment)",
     website: "https://sujinhhh.github.io/shop/",
@@ -53,12 +53,11 @@ const portfolioData = [
   },
   {
     url: "./landing.png",
-    title: "Company Blog",
-    subTitle: "My Blog",
-    tools: "Photoshop, Figma",
+    title: "HTML/CSS/ Blog",
+    subTitle: "Company Blog",
+    tools: "Photoshop, Figma, html, css",
     website: "https://blog.naver.com/ccclalala",
-    description:
-      "Designing and maintaining Handyman company Blog in Korea",
+    description: "Designing and maintaining Handyman company Blog in Korea",
   },
 ];
 
