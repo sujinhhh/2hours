@@ -26,23 +26,7 @@ const portfolioData = [
     website: "http://sulbi.ga/",
     description: "On process..",
   },
-  // {
-  //   url: "./landing.png",
-  //   title: "HTML / SCSS",
-  //   subTitle: "Kuto Company landing Page",
-  //   tools: "HTML,SCSS(Styling),JS, Netlify(deployment)",
-  //   website: "https://eager-payne-1994bb.netlify.app/",
-  //   description: "Responsive Webpage Study",
-  // },
-  // {
-  //   url: "https://sujinhhh.github.io/img/fish.png",
-  //   title: "Node JS",
-  //   subTitle: "My Blog",
-  //   tools: "Node JS, EJS, CSS, Heroku(deployment)",
-  //   website: "https://node-modu.herokuapp.com/",
-  //   description:
-  //     "Sorry it takes a little while to load page first time( Heroku free service)",
-  // },
+
   {
     url: "./shop.png",
     title: "JS / Online food shop",
@@ -52,12 +36,28 @@ const portfolioData = [
     description: "Shopping cart, Add items, Delete items",
   },
   {
+    url: "https://sujinhhh.github.io/img/fish.png",
+    title: "React JS / Personal Projects",
+    subTitle: "My Blog",
+    tools: "React, CSS, Styled-components",
+    website: "https://silk-wheat.vercel.app/",
+    description: "On process.. Studying React",
+  },
+  {
     url: "./landing.png",
-    title: "HTML/CSS/ Blog",
+    title: "Blog / Plumbing Company",
     subTitle: "Company Blog",
     tools: "Photoshop, Figma, html, css",
     website: "https://blog.naver.com/ccclalala",
-    description: "Designing and maintaining Handyman company Blog in Korea",
+    description: "Designing & maintaining company Blog in Korea",
+  },
+  {
+    url: "./landing.png",
+    title: "Blog / Plumbing Company",
+    subTitle: "Korea Plumbing Company Blog",
+    tools: "HTML,SCSS(Styling),JS, Netlify(deployment)",
+    website: "https://cafe.daum.net/dagochim",
+    description: "Designing & maintaining company Blog in Korea",
   },
 ];
 
