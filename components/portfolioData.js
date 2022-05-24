@@ -18,14 +18,14 @@ const portfolioData = [
     description: " Writing Deleting Board, Login, Vidoes ",
   },
 
-  // {
-  //   url: "./sulbi-min.png",
-  //   title: "WordPress",
-  //   subTitle: "Plumbming Company",
-  //   tools: "WordPress, Hostinger(hosting,deployment)",
-  //   website: "http://handyman.dothome.co.kr/",
-  //   description: "Blog, Write, Delete, Edit",
-  // },
+  {
+    url: "./sulbi-min.png",
+    title: "WordPress",
+    subTitle: "Plumbming Company",
+    tools: "WordPress, Hostinger(hosting,deployment)",
+    website: "http://sulbi.ga/",
+    description: "On process..",
+  },
   // {
   //   url: "./landing.png",
   //   title: "HTML / SCSS",
