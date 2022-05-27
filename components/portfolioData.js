@@ -55,7 +55,7 @@ const portfolioData = [
     url: "./landing.png",
     title: "Blog / Plumbing Company",
     subTitle: "Korea Plumbing Company Blog",
-    tools: "HTML,SCSS(Styling),JS, Netlify(deployment)",
+    tools: "HTML,CSS,Photoshop",
     website: "https://cafe.daum.net/dagochim",
     description: "Designing & maintaining company Blog in Korea",
   },
