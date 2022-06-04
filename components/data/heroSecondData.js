@@ -1,13 +1,13 @@
 const photos = [
-  "https://images.unsplash.com/photo-1495431299232-7a1177bc4178?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTR8fGZ1bm55fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  "https://images.unsplash.com/photo-1615486780246-76e6bb33e8b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxjb2ZmZWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  "https://images.unsplash.com/photo-1556011068-970d91076c37?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fGZ1bm55fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  "https://images.unsplash.com/photo-1516794840430-8d8c51e7c045?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGZ1bm55fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+  "https://cdn.pixabay.com/photo/2014/04/03/10/26/girl-310476__480.png",
+  "https://cdn.pixabay.com/photo/2022/05/17/16/44/marilyn-monroe-7203224__480.png",
+  "https://cdn.pixabay.com/photo/2016/02/11/17/49/jim-morrison-1194175_1280.png",
+  "https://cdn.pixabay.com/photo/2017/02/21/18/36/portrait-2087028__480.png",
 ];
 
 const videos = [
-  "https://sujinhhh.github.io/img/dog.mp4",
-  "https://sujinhhh.github.io/img/coding.mp4",
+  "https://images.unsplash.com/photo-1550439694-0cc5e82d1179?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAyfHxncmF5JTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
+  "https://images.unsplash.com/photo-1654266552216-97ecb926725b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60",
 ];
 
 const featureSlide = [

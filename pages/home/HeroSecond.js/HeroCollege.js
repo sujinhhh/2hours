@@ -53,10 +53,10 @@ const HeroCollege = () => {
         {leftImage.map((src, index) => (
           <ImageElement key={index * Math.random()} src={src} />
         ))}
-        <VideoElment src={leftVideo} />
+        {/* <VideoElment src={leftVideo} /> */}
       </div>
       <div className="right-column">
-        <VideoElment src={rightVideo} />
+        {/* <VideoElment src={rightVideo} /> */}
 
         {rightImage.map((src, index) => (
           <ImageElement key={index * Math.random()} src={src} />

@@ -13,7 +13,7 @@ const CommonContainer = ({ position }) => {
     },
     {
       mediaUrl:
-        "https://images.unsplash.com/photo-1505340843-6554dea802df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg2OHx8cGFzdGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+        "https://images.unsplash.com/photo-1623157379785-31c18178547c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTkwfHxwYXN0ZWwlMjBwdXJwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
       title: "JavaScript",
     },
 

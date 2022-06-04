@@ -9,10 +9,10 @@ const Hero = () => {
           <div className="info">
             <h1 className="title">{"Let's Roll!"}</h1>
             <p className="sub-contents-title">
-              “Software Developer” – An organism that turns caffeine into
-              software...
+              “Nothing is impossible. The word itself says ‘I’m possible!”
             </p>
-            <p className="sub-contents">
+            <h4> - Audrey Hepburn</h4>
+            <p id="sub-contents">
               Writing the first 90 percent of a computer program takes 90
               percent of the time. The remaining ten percent also takes 90
               percent of the time and the final touches also take 90 percent of
