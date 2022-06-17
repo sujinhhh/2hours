@@ -13,7 +13,7 @@ const HeroHeader = () => {
   });
 
   return (
-    <div className="hero-text-section">
+    <div className="hero-text-section2">
       <h2 id="hero-text">Everything you can imagine is real.</h2>
       <p className="hero-p-text">
         Life is filled with highs and lows —happiness and struggles that will

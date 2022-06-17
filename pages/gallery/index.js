@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import gsap from "gsap";
-// import SplitText from "../../utils/split.min.js";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 export const getStaticProps = async () => {
   const res = await fetch(
@@ -21,10 +21,10 @@ const Gallery = ({ gallery }) => {
   const bg = useRef(null);
 
   useEffect(() => {
-    gsap.from(title.current, {
+    gsap.to(title.current, {
       duration: 0.8,
-      autoAlpha: 0,
-      x: -100,
+      autoAlpha: 1,
+      x: -70,
       ease: "none",
     });
     gsap.from(subtitle.current, {
@@ -36,7 +36,7 @@ const Gallery = ({ gallery }) => {
     });
     gsap.from(bg.current, {
       duration: 0.5,
-      autoAlpha: 0,
+      autoAlpha: 1,
       ease: "none",
     });
   }, [title, subtitle]);

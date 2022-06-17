@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 const imgSrc =
-  "https://images.unsplash.com/photo-1527443060795-0402a18106c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80";
+  "https://images.unsplash.com/photo-1561570541-aaba21a3ecf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80";
 
 const videoUrl = "https://sujinhhh.github.io/img/letters.mp4";
 
@@ -12,7 +12,7 @@ const HeroPhoneBlock = () => {
 
   useEffect(() => {
     function intro() {
-      // gsap.registerPlugin(ScrollTrigger);
+      gsap.registerPlugin(ScrollTrigger);
       const tl = gsap.timeline();
       tl.fromTo(phoneRef.current, { y: 200 }, { y: 0, duration: 1 });
       return tl;
@@ -28,7 +28,7 @@ const HeroPhoneBlock = () => {
           scrub: true,
         },
       });
-      tl.to(phoneRef.current, { scale: 1.1 }, "+=0.2");
+      tl.to(phoneRef.current, { scale: 1.5 }, "+=0.2");
       tl.to(
         ".hero-container",
         {
@@ -52,14 +52,15 @@ const HeroPhoneBlock = () => {
         className="hero-phone-template"
         style={{ backgroundImage: `url(${imgSrc})` }}
       >
-        <video
+        <h1 ref={phoneRef}>Responsive Design</h1>
+        {/* <video
           className="collage-element"
           playsInline=""
           autoPlay
           webkit-playsinline=""
           loop
           src={videoUrl}
-        ></video>
+        ></video> */}
       </div>
     </div>
   );

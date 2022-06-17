@@ -1,5 +1,5 @@
 const photos = [
-  "https://cdn.pixabay.com/photo/2014/04/03/10/26/girl-310476__480.png",
+  "https://www.apple.com/v/apple-music/t/images/overview/hero_shared_hw__er14kxi3rjcm_large_2x.png",
   "https://cdn.pixabay.com/photo/2022/05/17/16/44/marilyn-monroe-7203224__480.png",
   "https://cdn.pixabay.com/photo/2016/02/11/17/49/jim-morrison-1194175_1280.png",
   "https://cdn.pixabay.com/photo/2017/02/21/18/36/portrait-2087028__480.png",

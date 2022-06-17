@@ -1,5 +1,6 @@
 import Head from "next/head";
 import HomePage from "./home";
+import OneMain from "./PageOne/OneMain";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         />
       </Head>
       <div>
+        <OneMain />
         <HomePage />
       </div>
     </>
