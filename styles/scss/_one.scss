@@ -11,11 +11,48 @@
 .one-container {
   border-top: 5px solid $white;
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: $pale-brown;
+  background-color: #dce6f1;
+  background-image: url("https://cdn.pixabay.com/photo/2020/09/30/19/35/waves-5616845_1280.png");
+  background-repeat: no-repeat;
+  // background-size: 1000px;
+  background-position: 50% -80%;
+  h1 {
+    font-size: 15vw;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+
+    max-width: 80%;
+    letter-spacing: 0.05em;
+    visibility: hidden;
+    overflow: hidden;
+    color: rgb(132, 167, 167);
+    span {
+      display: block;
+      position: relative;
+    }
+    span::before {
+      content: attr(data-char);
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translateY(-110%);
+      background-image: linear-gradient(#e0c3fc 0%, #3d5a77 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  h2 {
+    color: #464646;
+    max-width: 90%;
+    // margin-left: 20rem;
+  }
 }
+
 .one-nav-container {
   position: relative;
   .one-menu {

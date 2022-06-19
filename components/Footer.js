@@ -1,5 +1,10 @@
 const Footer = () => {
-  return <footer>Copryight 2021 ZZin</footer>;
+  const year = new Date().getFullYear();
+  return (
+    <footer>
+      <div className="copyright">Copryight {year} ZZin</div>
+    </footer>
+  );
 };
 
 export default Footer;

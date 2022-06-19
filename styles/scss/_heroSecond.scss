@@ -1,4 +1,33 @@
 .hero-container {
+  width: 100%;
+  .hero-text-section2 {
+    height: 80vh;
+    width: 100vw;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      width: 100%;
+      z-index: 3;
+      color: #37474f;
+      font-size: 2rem;
+      padding: 2rem;
+    }
+    .hero-p-text {
+      padding: 20px;
+      font-weight: 300;
+      color: rgb(100, 89, 59);
+
+      @include media("<=425px") {
+        font-size: 1rem;
+        width: 300px;
+        margin: 10px -40px;
+      }
+      // @include media("<=tablet") {
+      //   font-size: 55%;
+      // }
+    }
+  }
   .hero-text-section {
     max-width: 15em;
     width: calc(100%-32px);
@@ -10,8 +39,10 @@
     font-size: 4vw;
     font-weight: 800;
     position: relative;
-    background-image: url("https://images.unsplash.com/photo-1501497849301-66eb0889c6a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjUyfHxibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60");
+    background-image: url("https://github.com/sujinhhh/img/blob/master/me.png?raw=true");
     background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
     @include media("<=425px") {
       font-size: 2.5rem;
     }
@@ -25,34 +56,6 @@
       z-index: 3;
       color: white;
       font-size: 4vw;
-    }
-    h2 {
-      // display: inline-block;
-      // position: absolute;
-      width: 100%;
-      top: 40%;
-      right: 0;
-      z-index: 3;
-      color: #37474f;
-      font-size: 80%;
-    }
-    .hero-p-text {
-      display: inline-block;
-      padding: 20px;
-      margin: 30px 20px;
-      max-width: 20em;
-      font-size: 25%;
-      font-weight: 300;
-      color: rgb(100, 89, 59);
-      border: 1px solid rgb(179, 176, 176);
-      @include media("<=425px") {
-        font-size: 1rem;
-        width: 300px;
-        margin: 10px -40px;
-      }
-      // @include media("<=tablet") {
-      //   font-size: 55%;
-      // }
     }
   }
   .hero-collage {
@@ -180,6 +183,7 @@
       h1 {
         font-weight: 500;
         position: absolute;
+        right: 0;
         bottom: 0;
       }
       @include media("<=425px") {

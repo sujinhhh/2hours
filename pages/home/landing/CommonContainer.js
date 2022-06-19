@@ -32,7 +32,7 @@ const CommonContainer = ({ position }) => {
       title: "HTML",
     },
   ];
-  const first = imageData[0];
+  const first = imageData[3];
   const [activeMedia, setActiveMedia] = useState(first);
 
   return (
