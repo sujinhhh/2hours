@@ -8,7 +8,7 @@ function OneMain() {
     <div>
       <OneNav />
       <OneHeader />
-      <Featured />
+      {/* <Featured /> */}
     </div>
   );
 }

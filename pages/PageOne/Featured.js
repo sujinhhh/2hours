@@ -1,8 +1,8 @@
 import React from "react";
-import { photos } from "../../components/data/heroSecondData";
+import { images } from "../../components/data/heroSecondData";
 
 function Featured() {
-  const [firstUrl, secondUrl] = photos;
+  const [firstUrl, secondUrl] = images;
   return (
     <section className="featured-section">
       <div className="featured-row-layout">

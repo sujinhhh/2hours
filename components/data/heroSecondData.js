@@ -1,8 +1,11 @@
 const photos = [
   "https://www.apple.com/v/apple-music/t/images/overview/hero_shared_hw__er14kxi3rjcm_large_2x.png",
-  "https://cdn.pixabay.com/photo/2022/05/17/16/44/marilyn-monroe-7203224__480.png",
-  "https://cdn.pixabay.com/photo/2016/02/11/17/49/jim-morrison-1194175_1280.png",
-  "https://cdn.pixabay.com/photo/2017/02/21/18/36/portrait-2087028__480.png",
+  "./computer.png",
+  "./ipad.png",
+];
+const images = [
+  "https://images.unsplash.com/photo-1643101447193-9c59d5db2771?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
+  "https://images.unsplash.com/photo-1638913970895-d3df59be1466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
 ];
 
 const videos = [
@@ -25,4 +28,4 @@ const featureSlide = [
   },
 ];
 
-export { photos, videos, featureSlide };
+export { photos, videos, featureSlide, images };

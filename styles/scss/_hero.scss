@@ -33,7 +33,8 @@
   }
 
   .info h1 {
-    display: block;
+    position: absolute;
+    top: 50%;
     z-index: 999;
     font-family: $casual-font;
     text-align: center;

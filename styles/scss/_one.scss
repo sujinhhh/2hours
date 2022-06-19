@@ -11,7 +11,7 @@
 .one-container {
   border-top: 5px solid $white;
   display: flex;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: $pale-brown;
@@ -30,9 +30,15 @@
     }
   }
 }
+#one-textS {
+  font-size: 35vw;
 
+  font-family: "Ubuntu", sans-serif;
+}
 #one-text {
-  font-size: 20vw;
+  font-size: 18vw;
+  font-weight: 600;
+  word-spacing: -50px;
   text-transform: uppercase;
   text-align: center;
   font-family: "Ubuntu", sans-serif;
