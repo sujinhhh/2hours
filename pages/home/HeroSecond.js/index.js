@@ -12,7 +12,7 @@ const HeroSecond = () => {
         <HeroCollege />
         <HeroPhoneBlock />
       </div>
-      {/* <HeroUsedBy /> */}
+      <HeroUsedBy />
       <HeroFooter />
     </div>
   );

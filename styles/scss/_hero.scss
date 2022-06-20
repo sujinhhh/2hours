@@ -33,12 +33,14 @@
   }
 
   .info h1 {
-    display: block;
+    position: absolute;
+    top: 60%;
+    right: 11%;
     z-index: 999;
     font-family: $casual-font;
     text-align: center;
     color: $white;
-    font-size: 12rem;
+    font-size: 8rem;
     mix-blend-mode: multiply;
     text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
     @include media("<=425px") {

@@ -2,6 +2,7 @@
   cursor: pointer;
   height: 100vh;
   position: relative;
+
   .hover-left {
     content: "";
     position: absolute;
@@ -50,7 +51,7 @@
 
 .image-player {
   background-repeat: no-repeat;
-  background-position: left;
+  background-position-x: 100%;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -70,23 +71,25 @@
   pointer-events: none;
 }
 
-.center-text {
-  position: absolute;
-  top: 50%;
-  z-index: 6;
-  color: rgb(252, 252, 252);
-  transform: translate(50%, -70%);
-  font-size: 15rem;
-  mix-blend-mode: normal;
-  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
-  opacity: 1;
-  font-family: "Nanum Brush Script", cursive;
-  transition: opacity 0.25s ease-in-out;
-}
+// .center-text {
+//   position: absolute;
+//   top: 50%;
+//   z-index: 6;
+//   color: rgb(252, 252, 252);
+//   transform: translate(50%, -70%);
+//   font-size: 15rem;
+//   mix-blend-mode: normal;
+//   text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+//   opacity: 1;
+//   font-family: "Nanum Brush Script", cursive;
+//   transition: opacity 0.25s ease-in-out;
+// }
 
 .navigation {
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  top: 55%;
+  right: 10%;
+  display: flex;
   margin: 0 auto;
   font-size: 0.9rem;
   color: $white;
@@ -123,8 +126,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(100, 104, 134);
-    background-color: rgba(245, 246, 247, 0.7);
+    color: rgb(248, 248, 250);
+    background-color: rgba(245, 246, 247, 0);
     width: 6rem;
     border-radius: 3rem;
     margin: 0.5rem;
@@ -155,8 +158,8 @@
     // background: rgba(15, 15, 15, 0.625);
     background: linear-gradient(
       to left,
-      rgb(168, 145, 236, 0.6) 20%,
-      rgba(243, 120, 229, 0.6) 80%
+      rgb(143, 111, 111, 0) 10%,
+      rgba(19, 12, 75, 0) 90%
     );
   }
   video {

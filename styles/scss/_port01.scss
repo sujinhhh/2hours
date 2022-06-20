@@ -66,19 +66,23 @@
   & :hover {
     .h1 {
       background-image: linear-gradient(
-        -225deg,
-        #b388ff 0%,
-        #ff1361 50%,
-
-        #fff800 100%
+        45deg,
+        #fcc5e4 0%,
+        #fda34b 15%,
+        #ff7882 35%,
+        #c8699e 52%,
+        #7046aa 71%,
+        #0c1db8 87%,
+        #020f75 100%
       );
       background-blend-mode: multiply, multiply;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-weight: 800;
-      // text-shadow: 12px 12px 13px rgba(250, 249, 250, 0.3);
+      // text-shadow: -10px -5px 13px rgba(254, 253, 254, 0.5);
       opacity: 1;
       transform: translateX(50px);
+      background-color: white;
     }
   }
   .title-item {
@@ -106,7 +110,14 @@
     position: absolute;
     right: 0;
     transform: translate(0px, 0px);
-    background-color: rgb(220, 151, 223);
+    // background-image: linear-gradient(
+    //   to right,
+    //   #f78ca0 0%,
+    //   #f9748f 19%,
+    //   #fd868c 60%,
+    //   #fe9a8b 100%
+    // );
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4), 2px 2px 4px rgba(0, 0, 0, 0.04),
       3px 4px 8px rgba(0, 0, 0, 0.04), 4px 8px 16px rgba(0, 0, 0, 0.04),
       5px 3px 16px 32px rgba(0, 0, 0, 0.04), 6px 0.32px 24px rgba(0, 0, 0, 0.4);

@@ -118,6 +118,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   background-color: $pale-blue;
+  font-family: "Roboto", sans-serif;
   &.noscroll {
     overflow: hidden;
   }
@@ -160,4 +161,12 @@ a {
 
 button {
   border: 0;
+}
+
+footer {
+  background-image: url("https://cdn.pixabay.com/photo/2022/05/13/18/37/people-7194301__480.png");
+  background-position: center -80px;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  height: 100px;
 }

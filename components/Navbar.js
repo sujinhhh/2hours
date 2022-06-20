@@ -33,8 +33,9 @@ const Navbar = () => {
           <a className="navItem">Home</a>
         </Link>
         <Link href="/about">
-          <a className="navItem">About</a>
+          <a className="navItem">About Me</a>
         </Link>
+
         <Link href="/">
           <div className="logo">
             <img src="/logo.png" alt="logo" />

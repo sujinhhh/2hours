@@ -23,7 +23,7 @@ const VideoPlayer = () => {
       {videoSetup && (
         <motion.video
           className="video"
-          src="https://player.vimeo.com/external/530034795.sd.mp4?s=79c335ccd72eb0ad14660d20752a656ed3bc08ed&profile_id=164&oauth2_token_id=57447761"
+          src="https://player.vimeo.com/external/454825064.hd.mp4?s=1592bf3ecf1847fa831986b637abd651661fc97c&profile_id=174"
           autoPlay
           loop
           muted
