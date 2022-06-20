@@ -14,17 +14,19 @@ const HeroHeader = () => {
 
   return (
     <div className="hero-text-section2">
-      <h2 id="hero-text">Everything you can imagine is real.</h2>
-      <p className="hero-p-text">
-        Life is filled with highs and lows —happiness and struggles that will
-        test your resilience and integrity, push you to overcome challenges and
-        leave you with lessons that will make you even stronger on your way up.
-      </p>
-      <p className="hero-p-text">
-        Always believe that something wonderful is about to happen! You should
-        never regret anything in life. If it’s bad, it is experience. It’s not
-        who you are that holds you behind, it’s who you think your are not.
-      </p>
+      <h2>What did I do?</h2>
+      <h3>
+        A positive, enthusiastic Web designer & Front End Developer. I have
+        2years exprience as a web designer
+      </h3>
+      <img id="hero-text" src="./mola.png" alt="" />
+      <div className="tools" id="hero-text">
+        <p className="hero-p-text">Main tools :</p>
+        <img src="./html.png" alt="" />
+        <img src="./photoshop.png" alt="" />
+        <img src="./css.png" alt="" />
+        <img src="./ill.png" alt="" />
+      </div>
     </div>
   );
 };

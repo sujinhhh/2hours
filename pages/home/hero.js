@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero__container">
         <div className="card">
           <div className="info">
-            <h1 className="title">What I do?</h1>
+            <h1 className="title">What Can I Do?</h1>
             {/* <p className="sub-contents-title">
               “Nothing is impossible. The word itself says ‘I’m possible!”
             </p>
