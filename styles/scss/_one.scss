@@ -16,6 +16,8 @@
   justify-content: center;
   align-items: center;
   background-color: #dce6f1;
+
+  // background-image: url("https://cdn.pixabay.com/photo/2022/02/13/06/09/existential-crisis-7010445_1280.jpg");
   // background-image: url("https://cdn.pixabay.com/photo/2022/01/02/22/34/buildings-6911346_1280.png");
   background-image: url("./bg.png");
   background-repeat: no-repeat;
@@ -30,7 +32,8 @@
     letter-spacing: 0.05em;
     visibility: hidden;
     overflow: hidden;
-    color: rgb(132, 167, 167);
+    color: rgb(245, 247, 247);
+    // text-shadow: 3px 4px 5px rgb(245, 247, 247, 0.8);
     span {
       display: block;
       position: relative;
@@ -41,7 +44,21 @@
       left: 0;
       top: 0;
       transform: translateY(-110%);
-      background-image: linear-gradient(#e0c3fc 0%, #3d5a77 100%);
+      // background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+      // background-image: linear-gradient(
+      //   45deg,
+      //   #dbdcd7 0%,
+      //   #dddcd7 24%,
+      //   #e2c9cc 30%,
+      //   #e7627d 46%,
+      //   #b8235a 59%,
+      //   #801357 71%,
+      //   #3d1635 84%,
+      //   #1c1a27 100%
+      // );
+      // background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+      // background-image: linear-gradient(#e0c3fc 0%, #3d5a77 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }

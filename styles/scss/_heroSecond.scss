@@ -195,22 +195,13 @@
     z-index: -55;
     h1 {
       font-family: $big-font;
-      font-size: 8vw;
+      font-size: 7vw;
       font-weight: 700;
       margin-right: 5%;
       position: absolute;
       bottom: -10%;
-      background-image: radial-gradient(
-        to bottom,
-        #dbdcd7 0%,
-        #dddcd7 24%,
-        #e2c9cc 30%,
-        #e7627d 46%,
-        #b8235a 59%,
-        #801357 71%,
-        #3d1635 84%,
-        #1c1a27 100%
-      );
+      background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+      background-blend-mode: multiply, multiply;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
