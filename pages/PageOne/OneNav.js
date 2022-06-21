@@ -5,7 +5,7 @@ function OneNav() {
   return (
     <div className="one-nav-container">
       <ul className="one-menu">
-        <li> Resume</li>
+        {/* <li> Resume</li>
         <li> Cover letter</li>
         <li>
           <AiFillGithub size="30px" />
@@ -14,7 +14,7 @@ function OneNav() {
             color="#0b65c2"
             style={{ marginLeft: 10 }}
           />
-        </li>
+        </li> */}
       </ul>
     </div>
   );
