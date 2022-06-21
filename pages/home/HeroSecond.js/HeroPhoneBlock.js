@@ -52,7 +52,7 @@ const HeroPhoneBlock = () => {
         className="hero-phone-template"
         style={{ backgroundImage: `url(${imgSrc})` }}
       >
-        <h1 ref={phoneRef}>Responsive Design</h1>
+        <h1 ref={phoneRef}>Front-end Development</h1>
         {/* <video
           className="collage-element"
           playsInline=""
