@@ -57,7 +57,7 @@
     display: block;
     font-size: 6vw;
     line-height: 1.75;
-
+    font-family: $big-font;
     color: #bababa;
     opacity: 0.5;
     transition: color 0.1s ease-in-out;
@@ -137,7 +137,7 @@
       padding: 1rem;
       font-size: 1.3rem;
       text-align: left;
-      color: purple;
+      color: rgb(173, 249, 250);
     }
     h2 {
       margin: 0 auto;

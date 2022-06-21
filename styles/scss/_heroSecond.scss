@@ -2,7 +2,6 @@
   width: 100%;
 
   .hero-text-section2 {
-    // height: 80vh;
     width: 100vw;
     background-color: $white;
     display: flex;
@@ -13,6 +12,7 @@
       margin: 5% auto;
     }
     h2 {
+      font-family: $big-font;
       width: 100%;
       z-index: 3;
       background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
@@ -28,7 +28,7 @@
       font-size: 1rem;
       width: 400px;
       color: gray;
-      font-family: "Syncopate", sans-serif;
+
       @include media("<=425px") {
         width: 100%;
       }
@@ -194,6 +194,7 @@
     background-color: $white;
     z-index: -55;
     h1 {
+      font-family: $big-font;
       font-size: 8vw;
       font-weight: 700;
       margin-right: 5%;

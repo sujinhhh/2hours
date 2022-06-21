@@ -24,9 +24,8 @@
   h1 {
     font-size: 15vw;
     font-weight: 700;
-    font-family: "Roboto", sans-serif;
+    font-family: $big-font;
     display: flex;
-
     max-width: 80%;
     letter-spacing: 0.05em;
     visibility: hidden;
@@ -49,7 +48,7 @@
   }
   h2 {
     color: #464646;
-    max-width: 90%;
+    max-width: 80%;
     // margin-left: 20rem;
   }
 }
@@ -71,7 +70,7 @@
 #one-textS {
   font-size: 35vw;
 
-  font-family: "Ubuntu", sans-serif;
+  font-family: $big-font;
 }
 #one-text {
   font-size: 18vw;
@@ -79,7 +78,6 @@
   word-spacing: -50px;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Ubuntu", sans-serif;
 }
 
 .featured-section {

@@ -9,14 +9,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,400;0,500;0,700;1,200&family=Poppins:wght@600&display=swap");
 // Slick Slider
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
 // Font Variables
-$body-font: "Roboto", sans-serif;
+$body-font: "Bai Jamjuree", sans-serif;
 $Kor-font: "Singleday", cursive;
 $casual-font: "Caveat", cursive;
+$big-font: "Roboto", sans-serif;
 
 // Font Size
 $font-xsm: 0.875; // 14px
