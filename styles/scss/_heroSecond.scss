@@ -85,6 +85,9 @@
       font-size: 2.5rem;
       height: 60vh;
     }
+    @include media("<=768px") {
+      height: 60vh;
+    }
 
     h1 {
       display: inline-block;
@@ -189,9 +192,6 @@
     height: 100vh;
     top: 0;
     background-color: $white;
-
-    // left: 50%;
-    // transform: translateX(-40%) scale((1.5));
     z-index: -55;
     h1 {
       font-size: 8vw;
@@ -284,6 +284,7 @@
       &:nth-child(1) {
         color: #e7627d;
       }
+
       @include media("<=425px") {
         height: 100%;
         font-size: 1.3rem;
@@ -316,6 +317,12 @@
       width: 100%;
       margin-top: 0;
       padding-top: 0;
+    }
+    @include media("<=768px") {
+      padding: 2%;
+      margin-top: 0;
+      padding-top: 0;
+      justify-items: stretch;
     }
   }
 }
