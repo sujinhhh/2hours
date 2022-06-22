@@ -25,8 +25,8 @@
     }
     h3 {
       margin: 0 auto;
-      font-size: 1rem;
-      width: 400px;
+      font-size: 2vw;
+      width: 55vw;
       color: gray;
 
       @include media("<=425px") {

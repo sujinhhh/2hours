@@ -14,15 +14,17 @@ const HeroHeader = () => {
 
   return (
     <div className="hero-text-section2">
-      <h2>What did I do?</h2>
+      <h2>UI/UX Design</h2>
       <h3>
-        A positive, enthusiastic Web designer & Front End Developer. I have
-        2years exprience as a web designer
+        A positive, enthusiastic Web designer & Front End Developer. I have 2
+        years experience as a web designer
       </h3>
       <img id="hero-text" src="./mola.png" alt="" />
       <div className="tools" id="hero-text">
-        <p className="hero-p-text">Main tools :</p>
+        <p className="hero-p-text">Skills : </p>
+        <img src="./js.png" alt="" />
         <img src="./html.png" alt="" />
+        <img src="./react.png" alt="" />
         <img src="./photoshop.png" alt="" />
         <img src="./css.png" alt="" />
         <img src="./ill.png" alt="" />
