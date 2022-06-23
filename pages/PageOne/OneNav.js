@@ -6,7 +6,7 @@ function OneNav() {
   return (
     <div className="one-nav-container">
       <ul className="one-menu">
-        <a href="./bmo.pdf" target="_blank">
+        <a href="./resume-rr.pdf" target="_blank">
           <li> Resume</li>
         </a>
         {/* <li> Cover letter</li> */}
