@@ -14,7 +14,7 @@ const HeroHeader = () => {
 
   return (
     <div className="hero-text-section2">
-      <h2>UI/UX Design</h2>
+      <h2>Front-end Development</h2>
       <h3>
         A positive, enthusiastic Web designer & Front End Developer. I have 2
         years experience as a web designer
